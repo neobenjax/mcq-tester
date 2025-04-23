@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.question-block {
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.option {
+    display: block;
+    background: #f1f3f4;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.option:hover {
+    background-color: #e0e0e0;
+}
+
+.option input[type="radio"] {
+    margin-right: 10px;
+}
+
+.result-label {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    background-color: #6200ee;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+button:active {
+    background-color: #30009c;
+}
+
+#reset-btn {
+    background-color: #e0e0e0;
+    color: #333;
+    margin-top: 10px;
+}
+
+#reset-btn:hover {
+    background-color: #cfcfcf;
+}
+
+#reset-btn:active {
+    background-color: #bdbdbd;
+}
+
+#score-banner {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #202124;
+    background-color: #e8f0fe;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border-left: 4px solid #4285f4;
+    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3);
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+
+    .question {
+        font-size: 16px;
+    }
+
+    .option {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+
+    #score-banner {
+        font-size: 15px;
+    }
+}

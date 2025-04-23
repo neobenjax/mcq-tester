@@ -1,0 +1,205 @@
+{
+  "title": "IFC Multiple Choice Question Chapter 15",
+  "description": "This quiz is related to Chapter 15 for IFC Preparation exam, lorem lorem",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is a benchmark in the context of mutual fund performance?",
+      "options": {
+        "a": "The average performance of an investor’s total portfolio",
+        "b": "A personalized investment goal defined by the advisor",
+        "c": "A standard or index used to compare a fund's performance",
+        "d": "A legal document outlining fund restrictions"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "2",
+      "question": "What is the primary purpose of an Investment Policy Statement (IPS)?",
+      "options": {
+        "a": "To define client responsibilities",
+        "b": "To help fund managers avoid compliance breaches",
+        "c": "To outline asset allocation strategy and benchmark targets",
+        "d": "To replace the fund’s prospectus for clients"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "3",
+      "question": "What is the formula for calculating gain/loss on a mutual fund based on NAVPS?",
+      "options": {
+        "a": "(Ending NAVPS × Beginning NAVPS) / 100",
+        "b": "(Ending NAVPS − Beginning NAVPS) ÷ Beginning NAVPS × 100",
+        "c": "Ending NAVPS ÷ Beginning NAVPS × 100",
+        "d": "(NAVPS + dividends) ÷ Total assets"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "4",
+      "question": "What is the formula for the Sharpe Ratio?",
+      "options": {
+        "a": "(Portfolio Return × Risk-Free Rate) ÷ Beta",
+        "b": "(Portfolio Return − Alpha) ÷ Standard Deviation",
+        "c": "(Portfolio Return − Risk-Free Rate) ÷ Standard Deviation",
+        "d": "Risk-Free Rate ÷ Portfolio Return"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "What does a positive Sharpe Ratio indicate about a mutual fund?",
+      "options": {
+        "a": "It underperformed relative to the market",
+        "b": "It has a high alpha",
+        "c": "It delivered a return above the risk-free rate per unit of risk",
+        "d": "It is more volatile than the benchmark index"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "6",
+      "question": "What is a benchmark index?",
+      "options": {
+        "a": "A security chosen by the investor to compare return",
+        "b": "A portfolio manager’s preferred style",
+        "c": "A market index used to measure fund performance",
+        "d": "The average performance of non-indexed funds"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "7",
+      "question": "Which of the following is a key Canadian mutual fund benchmark?",
+      "options": {
+        "a": "Russell 2000 Index",
+        "b": "S&P 500 Index",
+        "c": "MSCI World Index",
+        "d": "FTSE Canada Universe Bond Index"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": "8",
+      "question": "What is the purpose of a peer group in performance evaluation?",
+      "options": {
+        "a": "To create financial plans for retirees",
+        "b": "To ensure every investor receives the same returns",
+        "c": "To compare similar mutual funds with each other",
+        "d": "To regulate investment advisor licensing"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "9",
+      "question": "What is another term for a peer group of mutual funds?",
+      "options": {
+        "a": "Asset universe",
+        "b": "Comparison portfolio",
+        "c": "Comparison universe",
+        "d": "Client reference portfolio"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "10",
+      "question": "What is the role of an appraisal firm in the context of mutual fund evaluation?",
+      "options": {
+        "a": "Issuing trading licenses",
+        "b": "Creating client portfolios",
+        "c": "Measuring and reporting fund performance",
+        "d": "Managing pooled funds on behalf of investors"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "11",
+      "question": "Which of the following are well-known appraisal firms?",
+      "options": {
+        "a": "Fundata and Morningstar",
+        "b": "Fidelity and BlackRock",
+        "c": "CIRO and FP Canada",
+        "d": "Nasdaq and FTSE Group"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "12",
+      "question": "Which factor can complicate performance comparisons between mutual funds?",
+      "options": {
+        "a": "Consistent performance",
+        "b": "Low volatility",
+        "c": "Matching for risk profiles",
+        "d": "Survivorship bias"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": "13",
+      "question": "Which of the following are considered measures of fund volatility? (Select the BEST answer)",
+      "options": {
+        "a": "Beta, standard deviation, Sharpe ratio, alpha",
+        "b": "Cash flow, fund turnover, MER, trailer fees",
+        "c": "NAVPS, T5 slips, index return, performance universe",
+        "d": "Front-end load, MER, ACB, net yield"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "14",
+      "question": "What does standard deviation measure in mutual fund performance?",
+      "options": {
+        "a": "How many units are bought during the year",
+        "b": "How closely the fund follows its benchmark",
+        "c": "The average rate of return over 3 years",
+        "d": "The variability of fund returns over time"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": "15",
+      "question": "What is a quartile in fund performance?",
+      "options": {
+        "a": "A type of risk-adjusted return",
+        "b": "A range of years in a fund’s track record",
+        "c": "A ranking system that divides funds into four groups",
+        "d": "The return for a 3-month period"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "16",
+      "question": "What percentage range falls into the 3rd quartile of a comparison universe?",
+      "options": {
+        "a": "Top 25 funds",
+        "b": "Ranks 26–50",
+        "c": "Ranks 51–75",
+        "d": "Ranks 76–100"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "17",
+      "question": "Which of the following is a drawback of comparison universes?",
+      "options": {
+        "a": "Clear benchmark alignment",
+        "b": "Low costs",
+        "c": "Survivorship bias",
+        "d": "Consistency in return calculation"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "18",
+      "question": "What is survivorship bias?",
+      "options": {
+        "a": "The belief that past performance guarantees future success",
+        "b": "The tendency of managers to choose outperforming funds",
+        "c": "The distortion caused when poorly performing funds are removed from the universe",
+        "d": "The effect of including foreign currency in performance calculation"
+      },
+      "correct_answer": "c"
+    }
+  ]
+}
+
