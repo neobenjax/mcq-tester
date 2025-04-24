@@ -1,6 +1,6 @@
 {
-  "title": "IFC Multiple Choice Question Chapter 15",
-  "description": "This quiz is related to Chapter 15 for IFC Preparation exam, lorem lorem",
+  "title": "IFC Multiple Choice Questions – Chapter 15",
+  "description": "This quiz evaluates key concepts from Chapter 15 of the IFC exam, including benchmarks, fund performance analysis, risk-adjusted return metrics, and interest rate anticipation strategies.",
   "questions": [
     {
       "id": "1",
@@ -197,6 +197,61 @@
         "b": "The tendency of managers to choose outperforming funds",
         "c": "The distortion caused when poorly performing funds are removed from the universe",
         "d": "The effect of including foreign currency in performance calculation"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "19",
+      "question": "(Rising Rate Environment – Strategy Selection) Your firm forecasts a steep rate hike by the Bank of Canada. As a fixed-income fund manager, you're adjusting portfolio duration to manage risk. Which of the following bond allocations would best fit the interest rate anticipation strategy?",
+      "options": {
+        "a": "Increase allocation to long-term zero-coupon bonds",
+        "b": "Shift holdings into short-term T-bills and high-coupon bonds",
+        "c": "Overweight long-term government bonds and GICs",
+        "d": "Switch entirely into equities to avoid bond losses"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "20",
+      "question": "(Falling Rate Environment – Strategy Logic) The Bank of Canada announces three consecutive rate cuts over the next 9 months. A manager using an interest rate anticipation strategy will likely:",
+      "options": {
+        "a": "Shift to long-term, low-coupon government bonds",
+        "b": "Increase exposure to short-term T-bills and floating-rate notes",
+        "c": "Maintain the current portfolio duration",
+        "d": "Convert bond portfolio into dividend-paying preferred shares"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "21",
+      "question": "(Interest Rate Sensitivity Comparison) Which of the following is most sensitive to changes in interest rates?",
+      "options": {
+        "a": "3-year GIC",
+        "b": "2-year high-yield bond",
+        "c": "10-year low-coupon government bond",
+        "d": "Short-term Treasury bill"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "22",
+      "question": "(Case-Based Allocation) A manager anticipates mild interest rate increases, but still wants to generate some yield from longer maturities. Which of the following is a moderate response under an interest rate anticipation philosophy?",
+      "options": {
+        "a": "Fully allocate to short-term T-bills",
+        "b": "Blend short-term bonds with medium-term high-coupon bonds",
+        "c": "Shift completely into equity income funds",
+        "d": "Replace bonds with REITs for yield"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "23",
+      "question": "(Applied Logic) If a client wants to benefit from falling interest rates and is comfortable with short-term price volatility, which bond strategy should they choose?",
+      "options": {
+        "a": "Allocate to short-term T-bills",
+        "b": "Buy floating-rate notes",
+        "c": "Invest in long-term, low-coupon bonds",
+        "d": "Stick to high-yield bonds only"
       },
       "correct_answer": "c"
     }

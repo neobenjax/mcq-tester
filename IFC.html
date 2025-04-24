@@ -9,13 +9,25 @@
 </head>
 <body>
     <div class="container">
-        <label for="json-loader" class="file-label">
-            <input type="file" id="json-loader" accept=".json">
-            <span class="button-styled">Load Quiz JSON</span>
-        </label>
         <h1 id="quiz-title"></h1>
         <p id="quiz-description"></p>
 
+        <label for="json-loader" class="file-label">
+            <input type="file" id="json-loader" accept=".json">
+            <span class="button-styled">Load MCQ From File</span>
+        </label>
+
+        <div class="controls">
+            <label for="question-count-select">Questions to Display:</label>
+            <select id="question-count-select">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="all" selected>All</option>
+            </select>
+            <button id="randomize-btn" type="button">Randomize</button>
+        </div>
 
         <p>Total Questions: <span id="question-count"></span></p>
 
