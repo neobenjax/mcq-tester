@@ -154,8 +154,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     questionCountSelect.addEventListener("change", () => {
         if (lastLoadedQuizData) {
-            const newSubset = getSubsetOfQuestions(lastLoadedQuizData);
-            animateRefresh(newSubset);
+            randomizedQuestions = getSubsetOfQuestions(lastLoadedQuizData);
+            animateRefresh(randomizedQuestions);
         }
     });
+    
 });
