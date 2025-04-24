@@ -93,6 +93,7 @@
         {
             "id": "94",
             "question": "What personal information must be obtained from clients opening a non-registered account?",
+            "info": "<ol><li>Date of birth.</li><li>Social insurance number.</li><li>Permanent address.</li><li>Full legal name.</li></ol>",
             "options": {
                 "a": "3 and 4.",
                 "b": "1 and 4.",
@@ -115,7 +116,7 @@
         {
             "id": "96",
             "question": "Jack and Jill hold a mutual fund account as tenants in common. What conditions would apply to their account?",
-             "info": "<p>In a <strong>tenants in common</strong> account, each account holder maintains a separate and distinct ownership share. The key characteristics of this account type are:</p><ol><li><strong>No right of survivorship:</strong> If one owner dies, their portion of the account does <em>not</em> automatically transfer to the other owner. Instead, it becomes part of their estate (so option 1 is incorrect).</li><li><strong>Split ownership:</strong> Each person typically owns 50% of the assets, unless otherwise documented (so option 2 is correct).</li><li><strong>Trading authority:</strong> Each party can usually only give instructions for their share of the account, unless special authority is given (so option 3 is incorrect by default).</li><li><strong>KYC information:</strong> Each owner must provide Know Your Client (KYC) information to the dealer (so option 4 is correct).</li></ol>",
+             "info": "<ol><li>Should either die, full ownership of the account would pass to the other.</li><li>Each would be the owner of 50% of the account’s assets.</li><li>Either could issue trading instructions on all account assets.</li><li>Each would be required to provide KYC information.</li></ol>",
             "options": {
                 "a": "2 and 4.",
                 "b": "2 and 3.",
