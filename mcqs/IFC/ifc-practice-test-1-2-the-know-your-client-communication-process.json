@@ -1,0 +1,215 @@
+{
+  "title": "2 - The Know Your Client Communication Process",
+  "description": "IFC Test 1",
+  "questions": [
+    {
+      "id": "15",
+      "question": "Based on the financial planning pyramid, what security would be appropriate for a very aggressive investor?",
+      "options": {
+        "a": "Commodities.",
+        "b": "Tax shelters.",
+        "c": "Over the Counter (OTC) Securities.",
+        "d": "Foreign stocks."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "16",
+      "question": "Your client earns $100,000 from employment and $10,000 from investments each year. Her bills total $95,000 annually. What is her discretionary income?",
+      "options": {
+        "a": "$15,000",
+        "b": "$10,000",
+        "c": "$5,000",
+        "d": "$20,000"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "17",
+      "question": "What bias results in investors valuing an asset that they own over an asset that another individual owns?",
+      "options": {
+        "a": "Endowment.",
+        "b": "Risk aversion.",
+        "c": "Status Quo.",
+        "d": "Representativeness."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "18",
+      "question": "What response would a loss-averse investor be most likely to choose in selecting a preferred investment return scenario?",
+      "options": {
+        "a": "A 5% chance of gaining $1,500, and a 95% chance of losing $800.",
+        "b": "A 25% chance of gaining $2,000, and a 75% chance of losing nothing.",
+        "c": "A 75% chance of losing $1,000, and a 25% chance of losing nothing.",
+        "d": "An assured loss of $750."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "19",
+      "question": "What bias would influence an investor’s decision to continue to hold an unprofitable investment despite little likelihood of an improvement in the investment’s value?",
+      "options": {
+        "a": "Availability.",
+        "b": "Status quo.",
+        "c": "Loss aversion.",
+        "d": "Representativeness."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "20",
+      "question": "Joanne’s earned income last year was $45,000 and her pension adjustment was $2,500. She has $2,000 in carry forward registered retirement savings plan (RRSP) room for the current taxation year. What is Joanne’s maximum tax-deductible RRSP contribution amount for the current year?",
+      "options": {
+        "a": "$5,600",
+        "b": "$12,600",
+        "c": "$7,600",
+        "d": "$8,100"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "21",
+      "question": "Rebecca, an investor in a 40% marginal tax bracket, receives $1,200 in Canadian dividends eligible for the dividend tax credit. What is the dividend tax credit that applies to this income?",
+      "options": {
+        "a": "$1,200",
+        "b": "$480",
+        "c": "$662.40",
+        "d": "$248.73"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": "22",
+      "question": "Which form of investment income is taxed at an investor’s marginal tax rate?",
+      "options": {
+        "a": "Capital losses.",
+        "b": "Foreign dividend income.",
+        "c": "Canadian dividend income.",
+        "d": "Capital gains."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "23",
+      "question": "What type of benefit plan has a final benefit that is dependent on the investment returns within the plan?",
+      "options": {
+        "a": "Final average plan.",
+        "b": "Flat benefit plan.",
+        "c": "Defined contribution plan.",
+        "d": "Career average plan."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "24",
+      "question": "What is the step in the financial planning process that includes a discussion of a client’s household budget?",
+      "options": {
+        "a": "Identify financial situation and constraints.",
+        "b": "Develop a written financial plan.",
+        "c": "Gather data and identify goals and objectives.",
+        "d": "Interview the client."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "25",
+      "question": "What is the characteristic of a Stage 2 – Family Commitment investor that most affects the ability to save for the long term?",
+      "options": {
+        "a": "Marginal tax bracket.",
+        "b": "Lack of liquidity.",
+        "c": "Risk tolerance.",
+        "d": "Wealth transfer considerations."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "26",
+      "question": "Ian is 25, employed, and has no dependents. He has no current financial or family obligations. He has asked for your recommendation for investing a $50,000 inheritance. What asset allocation would typically suit an investor with Ian’s characteristics?",
+      "options": {
+        "a": "10% in a bond fund, 80% in equity funds, 10% in a money market fund.",
+        "b": "50% in equity funds, 20% in a bond fund and 30% in a money market fund.",
+        "c": "10% in equity funds, 70% in a bond fund, 20% in a money market fund.",
+        "d": "35% in equity, 25% in a money market fund, 60% in a bond fund."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "27",
+      "question": "Your client contacts you, requesting that you purchase a mutual fund based on a “hot tip” from a friend who has been a successful investor. What bias is your client most likely being affected by?",
+      "options": {
+        "a": "Endowment.",
+        "b": "Overconfidence.",
+        "c": "Hindsight.",
+        "d": "Availability."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "28",
+      "question": "Jeff is a new client. He is 50 years old with modest savings in the low six figures, and wants to reinvest his portfolio to ensure that he can retire comfortably at age 65. In his meeting with Jeff, the advisor uncovered some of Jeff’s biases. Jeff displayed several strong emotional biases along with a few weak cognitive biases. What should the advisor do?",
+      "options": {
+        "a": "The advisor should moderate and adapt to Jeff’s cognitive biases.",
+        "b": "The advisor should moderate Jeff’s emotional biases.",
+        "c": "The advisor should adapt to Jeff’s cognitive biases.",
+        "d": "The advisor should moderate and adapt to Jeff’s emotional biases."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": "29",
+      "question": "How is a $10,000 withdrawal from a registered retirement savings plan (RRSP) taxed?",
+      "options": {
+        "a": "At a set rate of 30%.",
+        "b": "As regular income.",
+        "c": "Based on the type of investment income type.",
+        "d": "As a deduction against other income."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "30",
+      "question": "What portion of the withdrawal from a Registered Educational Savings Plan is tax-free?",
+      "options": {
+        "a": "Dividend income earned.",
+        "b": "Capital gains earned.",
+        "c": "Canadian Educational Savings Grant (CESG) amounts.",
+        "d": "Original capital contributed."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": "31",
+      "question": "An employer wants to offer his employees a pension plan. The goal is to provide a simple-to-understand plan that will reward all participants equally, regardless of their income level, and provide a retirement income based on a participant’s years of service with the company. What plan will best meet his requirements?",
+      "options": {
+        "a": "Final average plan.",
+        "b": "Flat benefit plan.",
+        "c": "Career average plan.",
+        "d": "Defined contribution plan."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "32",
+      "question": "Your client, a high-income earner in a high marginal tax bracket, is seeking to minimize the amount of tax he pays on investment income while continuing to invest in mutual funds. Which mutual fund would best meet his investment objective?",
+      "options": {
+        "a": "Canadian equity fund.",
+        "b": "Fixed-income fund.",
+        "c": "Money market fund.",
+        "d": "Foreign equity fund."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "33",
+      "question": "Your client’s unused RRSP contribution room is $46,000. He contributes $15,000 in the current taxation year. How much RRSP contribution room can he carry forward?",
+      "options": {
+        "a": "$31,000",
+        "b": "$35,000",
+        "c": "$46,000",
+        "d": "$38,000"
+      },
+      "correct_answer": "a"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+    "title": "3 - Understanding Investment Products and Portfolios",
+    "description": "IFC Test 1",
+    "questions": [
+        {
+            "id": "34",
+            "question": "What is a key difference between marketable government bonds and treasury bills?",
+            "options": {
+                "a": "Treasury bills trade in the over-the-counter market, while marketable bonds trade on the exchange.",
+                "b": "Treasury bills do not pay any coupon interest, while marketable bonds do.",
+                "c": "Marketable government bonds may be sold at a discount, while treasury bills are sold at a premium.",
+                "d": "Marketable government bonds actively trade in the secondary market, while treasury bills can only be bought from and sold to the government."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "35",
+            "question": "Which security is most likely to provide a capital gain if held to maturity?",
+            "options": {
+                "a": "A corporate bond bought at a discount.",
+                "b": "Common shares of a mature company.",
+                "c": "A government bond bought at a premium.",
+                "d": "Cumulative preferred shares bought at par value."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "36",
+            "question": "For the last year, an investor earned a return before adjustment for inflation of 2% on a money market fund, while inflation averaged 1.5%. What was his nominal rate of return?",
+            "options": {
+                "a": "2.00%",
+                "b": "0.50%",
+                "c": "1.50%",
+                "d": "3.50%"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "37",
+            "question": "Fund A has a 5-year average return of 10% and a standard deviation of 5%. Fund B has a 5-year average return of 8% and a standard deviation of 2%. Select the most accurate statement about Funds A and B.",
+            "options": {
+                "a": "Fund A’s returns have ranged from 5% to 10%.",
+                "b": "Fund A will always provide a higher return than Fund B.",
+                "c": "Fund B’s lowest return is lower than Fund A’s lowest return.",
+                "d": "Fund B is less risky than Fund A."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "38",
+            "question": "Calculate the 2-year simple return for the AAA Mutual Fund.",
+            "info": "<table><tr><th>Year</th><th>Price at Beginning</th><th>Distribution</th><th>Price at End</th><th>Simple 1-Yr Return</th></tr><tr><td>1st Year</td><td>$10.00</td><td>$0.25</td><td>$11.00</td><td>12.50%</td></tr><tr><td>2nd Year</td><td></td><td>$0.25</td><td>$10.20</td><td>-5.00%</td></tr></table>",
+            "options": {
+                "a": "-3%",
+                "b": "3%",
+                "c": "8%",
+                "d": "7%"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "39",
+            "question": "Which statement best describes what a rational investor will do when comparing the risk and return of two investments?",
+            "options": {
+                "a": "He will select the one with the lower risk because all investors are risk averse.",
+                "b": "He will select the one with the higher expected risk because that is the only way to earn a higher return.",
+                "c": "He will select the one that minimizes risk and maximizes return.",
+                "d": "He will select the one that maximizes risk and maximizes return."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "40",
+            "question": "Why do speculators tend to avoid diversification?",
+            "options": {
+                "a": "Diversifying a portfolio tends to increase the probability of very large gains and losses.",
+                "b": "Diversifying a portfolio tends to reduce the probability of very large gains and losses.",
+                "c": "Diversifying a portfolio may result in overall risk that is lower than that of its component securities.",
+                "d": "Not diversifying a portfolio exposes the investor to the total risk of the securities."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "41",
+            "question": "What items are typically classified as current assets on the statement of financial position?",
+            "options": {
+                "a": "Cash, inventories, and depreciation.",
+                "b": "Cash, accounts receivable, and inventories.",
+                "c": "Cash, accounts receivable, and retained earnings.",
+                "d": "Cash, accrued charges, and accounts receivable."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "42",
+            "question": "Ally wishes to buy a preferred share where any regular dividend payment that the board skips will collect in arrears. What preferred share feature should Ally be seeking?",
+            "options": {
+                "a": "Callable.",
+                "b": "Cumulative.",
+                "c": "Soft retraction.",
+                "d": "Voting."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "43",
+            "question": "Which statement best describes one of the main differences between short and long transactions?",
+            "options": {
+                "a": "Short transactions are more common than long transactions.",
+                "b": "Short sales must result in a decline in the price of the stock that is sold short.",
+                "c": "In a long transaction, the investor must pay the broker the cost of repurchasing the shares.",
+                "d": "Investors using long transactions anticipate a price increase in the security."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "44",
+            "question": "Sonya, a mutual fund manager, has outperformed the benchmark but expects a market pullback. What strategy should she use?",
+            "options": {
+                "a": "Reduce her equity exposure to the energy sector.",
+                "b": "Increase her equity exposure to the consumer staples sector.",
+                "c": "Buy call options on the iShares S&P/TSX 60 Index Fund.",
+                "d": "Buy put options on the iShares S&P/TSX 60 Index Fund."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "45",
+            "question": "Which statement about market risk is true?",
+            "options": {
+                "a": "Market risk is cancelled out by diversification.",
+                "b": "Market risk is measured by the standard deviation.",
+                "c": "Market risk can result from changes in inflation and interest rates.",
+                "d": "Market risk is greater than the sum of the risks of all stocks."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "46",
+            "question": "The Optima Equity Fund has a beta of 1.4. What is the most accurate way to describe the fund’s relationship to the market?",
+            "options": {
+                "a": "If the market goes up by 10%, the Optima Fund should go up by 11.4%.",
+                "b": "If the market goes down by 10%, the Optima fund should go up by 11.4%.",
+                "c": "If the market goes up by 5%, the Optima fund should go up by 7%.",
+                "d": "If the market goes down by 5%, the Optima Fund should go down by 5.7%."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "47",
+            "question": "A portfolio manager analyzes various asset mixes and adjusts the mix regularly. What is this process called?",
+            "options": {
+                "a": "Market timing.",
+                "b": "Strategic asset allocation.",
+                "c": "Passive management.",
+                "d": "Sector weighting."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "48",
+            "question": "Rank the decisions made by a portfolio manager in order of importance for the portfolio’s success.",
+            "options": {
+                "a": "Sector weighting, security selection, asset allocation.",
+                "b": "Security selection, sector weighting, asset allocation.",
+                "c": "Asset allocation, security selection, sector weighting.",
+                "d": "Asset allocation, sector weighting, security selection."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "49",
+            "question": "Which of the following asset allocation statements is correct?",
+            "options": {
+                "a": "Equity weightings greater than 90% should not be recommended.",
+                "b": "You should review a client’s asset allocation when the investment environment changes.",
+                "c": "Portfolio security selection determines the long-term growth potential.",
+                "d": "A fixed-income component of less than 25% is appropriate for conservative portfolios."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "50",
+            "question": "Which financial leverage ratio measures a company’s ability to repay its borrowings?",
+            "options": {
+                "a": "Operating profit margin ratio.",
+                "b": "Cash flow from operations to total debt ratio.",
+                "c": "Total debt ratio.",
+                "d": "Interest coverage ratio."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "51",
+            "question": "What is Widget Inc.’s gross profit?\n\nSales = $200,000\nCost of Goods Sold = $80,000",
+            "info": "<p>To calculate gross profit, we subtract the <strong>Cost of Goods Sold (COGS)</strong> from <strong>Sales</strong>. Other expenses like selling, depreciation, and general expenses are not part of this calculation.</p><p><strong>Gross Profit = Sales - COGS = $200,000 - $80,000 = $120,000</strong></p><table style='border-collapse: collapse; margin-top: 10px;'><thead><tr><th style='text-align: left; padding: 4px; border-bottom: 1px solid #ccc;'>Widget Inc.<br>Earnings Statement</th><th style='text-align: right; padding: 4px; border-bottom: 1px solid #ccc;'></th></tr></thead><tbody><tr><td style='padding: 4px;'>Sales</td><td style='padding: 4px; text-align: right;'>$200,000</td></tr><tr><td style='padding: 4px;'>Cost of Goods Sold</td><td style='padding: 4px; text-align: right;'>$80,000</td></tr><tr><td style='padding: 4px;'>Selling & General Expenses</td><td style='padding: 4px; text-align: right;'>$40,000</td></tr><tr><td style='padding: 4px;'>Depreciation</td><td style='padding: 4px; text-align: right;'>$5,000</td></tr><tr><td style='padding: 4px;'>Total Expenses</td><td style='padding: 4px; text-align: right;'>$30,000</td></tr><tr><td style='padding: 4px;'>Net Earnings</td><td style='padding: 4px; text-align: right;'>$40,000</td></tr></tbody></table>",
+            "options": {
+                "a": "$45,000",
+                "b": "$120,000",
+                "c": "$50,000",
+                "d": "$75,000"
+            },
+            "correct_answer": "b"
+        }
+    ]
+}

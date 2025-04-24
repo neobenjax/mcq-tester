@@ -67,6 +67,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
             questionBlock.appendChild(questionText);
 
+            if (q.info) {
+                const infoBlock = document.createElement("div");
+                infoBlock.className = "question-info";
+                infoBlock.innerHTML = q.info; // ⚠️ Safe only if data is trusted
+                questionBlock.appendChild(infoBlock);
+            }
+            
+
             Object.entries(q.options).forEach(([key, value]) => {
                 questionBlock.appendChild(createOption(key, value, q.id));
             });
@@ -109,9 +117,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     score++;
                     resultLabel.textContent = "Correct";
                     resultLabel.className = "result-label correct";
+                    selected.parentElement.classList.add("correct-answer");
                 } else {
                     resultLabel.textContent = "Wrong";
                     resultLabel.className = "result-label wrong";
+                    selected.parentElement.classList.add("wrong-answer");
+                    const correctOption = document.querySelector(`input[name=q${q.id}][value=${q.correct_answer}]`);
+                    if (correctOption) {
+                        correctOption.parentElement.classList.add("correct-answer");
+                    }
                 }
             } else {
                 resultLabel.textContent = "No answer selected";

@@ -1,0 +1,50 @@
+{
+    "title": "4 - The Modern Mutual Fund",
+    "description": "IFC Test 1",
+    "questions": [
+        {
+            "id": "52",
+            "question": "Apex Mutual Fund has been structured to avoid taxation by distributing any net interest, dividends, and capital gains to unitholders each calendar year. This is an example of what type of mutual fund structure?",
+            "options": {
+                "a": "Mutual fund corporation.",
+                "b": "Mutual fund trust.",
+                "c": "Closed-end mutual fund.",
+                "d": "Open-ended mutual fund."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "53",
+            "question": "What criteria does the independent review committee use to determine if a potential conflict of interest, such as inter-fund trading, should be approved?",
+            "options": {
+                "a": "Will the action contravene National Instrument 81-102?",
+                "b": "Will the action require unitholder approval?",
+                "c": "Will the action achieve a fair and reasonable result for the fund?",
+                "d": "Will the action contravene a unitholder’s statutory rights?"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "54",
+            "question": "Why is it important that an investor receive a copy of the Fund Facts document prior to buying a mutual fund?",
+            "options": {
+                "a": "The investor can verify that the fund’s stated investment objectives and risk profile match his own.",
+                "b": "The investor can verify that his statutory rights have been respected.",
+                "c": "The investor can verify that the fund manager is adhering to the fund’s stated investment objectives.",
+                "d": "The investor can verify that the fund has not misstated any material facts."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "55",
+            "question": "What entity receives all fund money obtained from investors buying units/shares?",
+            "options": {
+                "a": "Fund manager.",
+                "b": "Dealer.",
+                "c": "Registrar.",
+                "d": "Custodian."
+            },
+            "correct_answer": "d"
+        }
+    ]
+}

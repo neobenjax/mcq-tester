@@ -1,0 +1,128 @@
+{
+    "title": "Analysis of Mutual Funds",
+    "description": "IFC Test 1",
+    "questions": [
+        {
+            "id": "56",
+            "question": "The ZZZ Money Market Fund has a 7-day yield of 0.05%. What is the current yield for the fund? Round your answer to two decimal places.",
+            "info": "Current yield = (Seven-day yield × 365 / 7) → (0.0005 × 365 / 7) = 0.0261 or 2.61%",
+            "options": {
+                "a": "2.22%",
+                "b": "0.05%",
+                "c": "2.61%",
+                "d": "1.61%"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "57",
+            "question": "Which type of fund is least likely to produce capital gains income?",
+            "options": {
+                "a": "Mortgage fund.",
+                "b": "Preferred dividend fund.",
+                "c": "Short-term bond fund.",
+                "d": "Money market fund."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "58",
+            "question": "What type of risk is the fundamental risk factor for fixed-income securities?",
+            "options": {
+                "a": "Liquidity risk.",
+                "b": "Interest rate risk.",
+                "c": "Market risk.",
+                "d": "Reinvestment risk."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "59",
+            "question": "Which statement is most accurate about fund wraps?",
+            "options": {
+                "a": "The fund wrap sponsor is responsible for asset allocation decisions.",
+                "b": "The investor pays fees to both the wrap manager and the manager of the underlying funds.",
+                "c": "There is essentially no regulatory difference between a fund wrap and a standard mutual fund.",
+                "d": "Each model is designed to meet the needs of the individual."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "60",
+            "question": "Your client, Mrs. DaSousa, would like to diversify her portfolio by investing in a global equity fund. What should you advise her about the foreign currency risk?",
+            "options": {
+                "a": "The fund manager can hedge the exchange risk by buying foreign currency through futures contracts.",
+                "b": "The fund may provide a hedge against a decline in the Canadian dollar.",
+                "c": "The foreign exchange risk will be offset by the lower liquidity risk.",
+                "d": "The value of the fund will go up if the Canadian dollar increases in value against the foreign currency."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "61",
+            "question": "Which type of fixed-income fund has a short duration, with the objectives of preserving capital and generating better current income than a money market fund?",
+            "options": {
+                "a": "T-bill fund.",
+                "b": "Short-term bond fund.",
+                "c": "Mortgage fund.",
+                "d": "Preferred dividend fund."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "62",
+            "question": "What best describes why mortgage funds generally have less sensitivity to changes in interest rates than bond funds?",
+            "options": {
+                "a": "Interest on mortgages is usually paid monthly, while interest on bonds is typically paid semi-annually.",
+                "b": "Mortgage funds are highly diversified, often holding over 10,000 individual mortgages.",
+                "c": "Most mortgages held in mortgage funds are either NHA-insured or privately insured.",
+                "d": "Many mortgage funds also hold T-bills and mortgage-backed securities, which are less volatile."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "63",
+            "question": "Recently interest rates have gone up. Your customer, Mr. Corelli, has asked you how this will affect the value of his mortgage fund. What is the best response to give to Mr. Corelli?",
+            "options": {
+                "a": "The mortgage fund will not be affected because mortgages do not react to changes in interest rates the way bonds do.",
+                "b": "The value of the mortgage fund should go up because mortgages will now be earning higher interest.",
+                "c": "The mortgage fund will not be affected because the rise in interest rates will affect only new mortgages.",
+                "d": "The value of the mortgage fund will go down because new mortgages will pay higher interest than those in the fund."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "64",
+            "question": "You are the portfolio manager for the ABC Balanced Fund. Interest rates are going up; the stock market has been very volatile recently and is forecast to continue that way for the next two quarters. What changes, if any, will you make to your current asset allocation of 50% bonds and 50% equities?",
+            "options": {
+                "a": "Increase the allocation to bonds because interest rates are rising.",
+                "b": "Temporarily move a significant amount into money market securities.",
+                "c": "Increase the allocation to equities to take advantage of the volatility.",
+                "d": "None – the fund is balanced."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "65",
+            "question": "Which statement best describes key differences between dividend funds and standard equity funds?",
+            "options": {
+                "a": "Standard equity funds’ objectives do not include current dividend income.",
+                "b": "Standard equity funds’ objectives are based on a belief in market efficiency.",
+                "c": "Standard equity funds cannot invest in preferred shares.",
+                "d": "Standard equity funds’ objectives do not include capital preservation."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "66",
+            "question": "You are concerned about the upcoming weakness in the Canadian dollar. Which type of fund should you invest in?",
+            "options": {
+                "a": "A specialty fund that uses derivatives to hedge the value of its portfolio.",
+                "b": "An international fund that hedges its foreign currency risk.",
+                "c": "A global fund that does not hedge its foreign currency risk.",
+                "d": "A global fund that hedges its foreign currency risk."
+            },
+            "correct_answer": "d"
+        }
+    ]
+}

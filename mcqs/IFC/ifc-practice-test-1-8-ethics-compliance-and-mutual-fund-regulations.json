@@ -1,0 +1,172 @@
+{
+    "title": "8 Ethics, Compliance and Mutual Fund Regulations",
+    "description": "IFC Test 1",
+    "questions": [
+        {
+            "id": "86",
+            "question": "What is the securities administrator’s power that is intended to ensure investors can make fully informed investment decisions?",
+            "options": {
+                "a": "Registration.",
+                "b": "Disclosure.",
+                "c": "Enforcement.",
+                "d": "Termination."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "87",
+            "question": "When must client complaints be acknowledged in writing?",
+            "options": {
+                "a": "When the client has made a written complaint in letter format.",
+                "b": "Any time the client has made a verbal or written complaint.",
+                "c": "When the client has made a written complaint in any format.",
+                "d": "When complaints are made repeatedly by the same client with respect to the same representative."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "88",
+            "question": "A mutual fund representative misrepresents the risks associated with a particular mutual fund in order to encourage a conservative client to purchase it. What part of CIRO’s Mutual Fund Dealer Rules, Rule No. 2 Business Conduct, did the representative violate?",
+            "options": {
+                "a": "Have such experience and training as it consistent with the standards acceptable to the industry.",
+                "b": "Not engage in business conduct or practice that is unbecoming or detrimental to the public interest.",
+                "c": "Observe a high standard of ethics and conduct.",
+                "d": "Deal fairly, honestly, and in good faith with clients."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "89",
+            "question": "When can an individual legally start selling mutual funds?",
+            "options": {
+                "a": "Upon completion of continuing education requirements.",
+                "b": "Upon successful completion of the proficiency examination.",
+                "c": "Upon receipt of notification of registration from the securities administrator.",
+                "d": "Upon filing a registration application and paying the required registration fee."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "90",
+            "question": "Karen works Monday to Wednesday for a member of CIRO as a dealing representative and Thursday and Friday as a language instructor at a local college. Client orders received on Thursdays and Fridays are held until Karen returns to work the following week. What requirement did the dealer fail to do in these circumstances?",
+            "options": {
+                "a": "The dealer must maintain procedures to ensure continuous service to clients.",
+                "b": "The dealer must be aware of and approve of Karen’s other occupation.",
+                "c": "Karen’s alternate employment must not bring CIRO, its members, or the mutual fund industry into disrepute.",
+                "d": "The dealer must maintain procedures to address any potential conflicts of interest."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "91",
+            "question": "A married couple is opening a spousal RRSP account in the name of the wife. The dealing representative gathers the information required on the NAAF, including the wife’s name, social insurance number, permanent address and investment objectives. The representative also gathers KYC information for both and informs them that leveraging is not permitted with respect to RRSP accounts. Which information was not required?",
+            "options": {
+                "a": "Husband’s KYC information.",
+                "b": "Wife’s KYC information.",
+                "c": "Wife’s social insurance number.",
+                "d": "Disclaimer with respect to leveraging."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "92",
+            "question": "A mutual fund sales representative receives a client’s purchase order for equity mutual funds and confirms that the order is appropriate based on the client’s recorded investment knowledge and risk profile. The client explains that she had inherited the funds from a family member. The client states her investment objective to be long term. The representative records this information and processes the order. What the representative doesn’t know is that the client has recently lost her job and is living on unemployment insurance. What step did the representative need to take in order to uphold her duty of care?",
+            "options": {
+                "a": "The representative should have applied due diligence in matching the order to the client’s KYC information.",
+                "b": "The representative should have applied the test of suitability to the unsolicited order.",
+                "c": "The representative should have probed the client’s understanding of equity funds.",
+                "d": "The representative should have verified that the client’s KYC information was updated before applying the suitability test."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "93",
+            "question": "A mutual fund sales representative is under pressure to meet certain sales objectives. However, he consistently ignores these quotas when making client recommendations. Which obligation has he followed?",
+            "options": {
+                "a": "The obligations to put the client’s interests first.",
+                "b": "The obligation to keep client information confidential.",
+                "c": "The obligation to maintain a high standard of professional knowledge.",
+                "d": "The obligation to take appropriate cautions for potentially unsuitable investments."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "94",
+            "question": "What personal information must be obtained from clients opening a non-registered account?",
+            "options": {
+                "a": "3 and 4.",
+                "b": "1 and 4.",
+                "c": "1 and 2.",
+                "d": "2 and 3."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "95",
+            "question": "A husband wishes to transfer some of his non-registered mutual fund holdings to his wife, but wants to maintain trading authority over the transferred assets. He also wishes to ensure that should she die the gift he is making will revert to him. What is the appropriate account type?",
+            "options": {
+                "a": "Open a nominee account.",
+                "b": "Open an account in his wife’s name only.",
+                "c": "Open a tenants in common account.",
+                "d": "Open a joint account."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "96",
+            "question": "Jack and Jill hold a mutual fund account as tenants in common. What conditions would apply to their account?",
+             "info": "<p>In a <strong>tenants in common</strong> account, each account holder maintains a separate and distinct ownership share. The key characteristics of this account type are:</p><ol><li><strong>No right of survivorship:</strong> If one owner dies, their portion of the account does <em>not</em> automatically transfer to the other owner. Instead, it becomes part of their estate (so option 1 is incorrect).</li><li><strong>Split ownership:</strong> Each person typically owns 50% of the assets, unless otherwise documented (so option 2 is correct).</li><li><strong>Trading authority:</strong> Each party can usually only give instructions for their share of the account, unless special authority is given (so option 3 is incorrect by default).</li><li><strong>KYC information:</strong> Each owner must provide Know Your Client (KYC) information to the dealer (so option 4 is correct).</li></ol>",
+            "options": {
+                "a": "2 and 4.",
+                "b": "2 and 3.",
+                "c": "1 and 3.",
+                "d": "1 and 4."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "97",
+            "question": "A dealing representative explains the past performance of a mutual fund to a potential client, discussing the annual simple returns and compound returns that the fund had earned. She concluded by indicating she expects the fund’s NAVPU was likely to rise at similar rates in the future, given the economic outlook. What unacceptable selling practice has occurred?",
+            "options": {
+                "a": "Representatives cannot discuss a fund’s past performance.",
+                "b": "Representatives cannot promise NAVPU will increase by any amount.",
+                "c": "Representatives cannot quote a future purchase price.",
+                "d": "Representatives cannot comment upon the economic outlook."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "98",
+            "question": "Sofie is a busy mutual fund sales representative. She would like to move clients that are invested in low-yielding cash accounts to her firm’s higher yielding proprietary money market mutual fund. She confirms the orders with the clients, then instructs her new sales assistant, who will write the IFC exam next week, to enter orders to buy units in this fund. How has Sofie violated the standards of conduct?",
+            "options": {
+                "a": "She has done insufficient research and violated her due diligence requirement.",
+                "b": "She failed to establish a scheduled review for her clients’ accounts.",
+                "c": "She allowed an unregistered individual to process the order to buy units.",
+                "d": "She violated no standards of conduct."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "99",
+            "question": "What is the time period during which an individual must complete a training program once she starts acting as a dealing representative?",
+            "options": {
+                "a": "90 days.",
+                "b": "30 days.",
+                "c": "3 months.",
+                "d": "6 months."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "100",
+            "question": "A mutual fund sales representative is asked to make a presentation to an investment club. During the presentation he discusses personal experiences of a questionable nature. What aspect of professionalism is relevant to this situation?",
+            "options": {
+                "a": "Other personal endeavours.",
+                "b": "Conduct of personal business.",
+                "c": "Personal financial dealings with clients.",
+                "d": "Solicitation of client business."
+            },
+            "correct_answer": "a"
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+  "title": "7 - Evaluating and Selecting Mutual Funds",
+  "description": "Practice test 1 for IFC",
+  "questions": [
+    {
+      "id": "70",
+      "question": "The performance of ABC Mutual Fund ranks 54 out of 100 funds in its peer group. What is its quartile ranking?",
+      "options": {
+        "a": "1st quartile.",
+        "b": "4th quartile.",
+        "c": "3rd quartile.",
+        "d": "2nd quartile."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "71",
+      "question": "Which drawback of the comparison universe method makes average fund managers look more like underperformers as the comparison period lengthens?",
+      "options": {
+        "a": "Survivorship bias.",
+        "b": "Definition of universes.",
+        "c": "Universe size.",
+        "d": "Matching of risk profiles."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "72",
+      "question": "What type of fund offers the highest expected risk and the highest expected return in terms of the risk-return trade-off between different types of mutual funds?",
+      "options": {
+        "a": "Canadian Equity fund.",
+        "b": "Mortgage fund.",
+        "c": "Real estate fund.",
+        "d": "Specialty fund."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": "73",
+      "question": "A fund manager has diversified the equity portfolio he manages in order to reduce the potential negative impact of unfavourable information relating to any one stock. What type of risk has he reduced?",
+      "options": {
+        "a": "Market risk.",
+        "b": "Default risk.",
+        "c": "Unique risk.",
+        "d": "Interest rate risk."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "74",
+      "question": "You are comparing the performance of ABC Equity Fund and XYZ Equity Fund to their benchmark. Indicate the correct statement.",
+      "info": "<table><tr><th>Return Year 1</th><th>Return Year 2</th><th>Return Year 3</th><th>3 Year Compound Return</th></tr><tr><td>-2.0%</td><td>12.6%</td><td>20.6%</td><td>10.0%</td></tr><tr><td>-10.0%</td><td>16.0%</td><td>24.0%</td><td>9.0%</td></tr><tr><td>8.0%</td><td>9.0%</td><td>10.0%</td><td>9.0%</td></tr></table>",
+      "options": {
+        "a": "Fund ABC demonstrated a superior performance in a bearish market.",
+        "b": "Fund XYZ would have offered a lower likelihood of loss if a client needed to sell the investment.",
+        "c": "Fund XYZ offered less protection on the downside.",
+        "d": "Fund ABC showed greater consistency in its simple annual returns."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "75",
+      "question": "What is a mutual fund trailer fee?",
+      "options": {
+        "a": "An annual fee is paid to mutual fund sales representatives based on a fixed percentage of assets.",
+        "b": "A fee charged for the professional management and administrative services provided to the fund.",
+        "c": "A fee is charged when redeeming mutual fund units.",
+        "d": "A fee is charged when transferring mutual fund units."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "76",
+      "question": "Which factors would cause the management expense ratio charged by a mutual fund to be higher?",
+      "info": "<ol><li>The fund invests in foreign equities.</li><li>The fund is large in size.</li><li>The fund is managed by the fund sponsor’s management team.</li><li>The fund pays a trailer fee.</li></ol>",
+      "options": {
+        "a": "3 and 4.",
+        "b": "1 and 2.",
+        "c": "1 and 4.",
+        "d": "2 and 3."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "77",
+      "question": "An investor purchases equity fund units for $17.60. In which of the following circumstances would an investor potentially owe taxes on capital gains?",
+      "options": {
+        "a": "The fund is currently valued at $18.80 per unit.",
+        "b": "A dividend distribution is reinvested into additional units of the same fund.",
+        "c": "The fund is sold today for $18.80 per unit and the proceeds are reinvested.",
+        "d": "The fund is currently valued at $16.45 per unit."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "78",
+      "question": "Which exemplifies the tendency of mutual fund companies to shut down poor performing funds?",
+      "options": {
+        "a": "Standard lot.",
+        "b": "Short selling.",
+        "c": "Survivorship bias.",
+        "d": "Standby underwriting."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "79",
+      "question": "Which index would investors use as a benchmark for doing research on the largest listed public companies in the US marketplace?",
+      "options": {
+        "a": "MSCI EAFE Index.",
+        "b": "S&P/TSX Composite.",
+        "c": "S&P 500.",
+        "d": "FTSE Canada Universe Bond Index."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "80",
+      "question": "Which Sharpe ratio result would indicate that the fund earned a return less than the risk-free return?",
+      "options": {
+        "a": "-0.2",
+        "b": "1",
+        "c": "2.5",
+        "d": "0.5"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "81",
+      "question": "What equity investment philosophy places greater emphasis on industry weighting than on security selection?",
+      "options": {
+        "a": "Sector rotation.",
+        "b": "Growth investing.",
+        "c": "Momentum investing.",
+        "d": "Growth at a reasonable price."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "82",
+      "question": "A fund manager who utilizes an interest rate anticipation philosophy forecasts a rise in interest rates. What change in asset allocation should he implement?",
+      "options": {
+        "a": "Increase long-term bond and low-coupon bond holdings.",
+        "b": "Increase long-term and high-coupon bond holdings.",
+        "c": "Increase short-term T-bill and high-coupon bond holdings.",
+        "d": "Increase short-term T-bill and low-coupon bond holdings."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "83",
+      "question": "Your soon-to-be retired client has accumulated $700,000 in a mutual fund investment. He has consulted with you with respect to systematic withdrawal plans. His other sources of income in retirement are uncertain. He is not interested in leaving a legacy at his death. Which plan would best suit his needs?",
+      "options": {
+        "a": "Ratio withdrawal plan.",
+        "b": "Life withdrawal plan.",
+        "c": "Fixed-dollar withdrawal plan.",
+        "d": "Annuity."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": "84",
+      "question": "In what circumstance would an investor receive a T3 or T5 reporting a capital gain from a mutual fund investment?",
+      "options": {
+        "a": "When the fund sells investments at a price higher than the average cost of the investment.",
+        "b": "When the value of the investor’s fund units has risen.",
+        "c": "When the value of the fund’s investments has risen.",
+        "d": "When the investor sells her fund units at a price higher than their average cost."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "85",
+      "question": "What value are withdrawals under a ratio withdrawal plan based upon?",
+      "options": {
+        "a": "Value at inception of plan.",
+        "b": "Average of start and year-end portfolio value.",
+        "c": "End of year portfolio value.",
+        "d": "Current portfolio value."
+      },
+      "correct_answer": "d"
+    }
+  ]
+}

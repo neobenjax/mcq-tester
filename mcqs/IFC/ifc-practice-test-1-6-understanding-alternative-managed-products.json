@@ -1,0 +1,39 @@
+{
+    "title": "Understanding Alternative Managed Products",
+    "description": "IFC Test 1",
+    "questions": [
+        {
+            "id": "67",
+            "question": "What is an implicit cost of principal protected notes?",
+            "options": {
+                "a": "Structuring costs and guarantee fees.",
+                "b": "Performance participation caps.",
+                "c": "Early redemption fees.",
+                "d": "Commissions."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "68",
+            "question": "What type of managed fund, recently introduced to Canada, is allowed greater use of short sales, leverage, and derivatives compared to mutual funds, but not to the same extent as hedge funds?",
+            "options": {
+                "a": "Closed-end discretionary fund.",
+                "b": "Liquid alts.",
+                "c": "Principal-protected notes.",
+                "d": "Private equity."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "69",
+            "question": "An investor seeks an equity investment that will mirror the performance of the energy sector in Canada. She desires a low-cost, flexible alternative that can quickly be bought or sold. Which product is most suited to her needs?",
+            "options": {
+                "a": "Direct investment in energy sector stocks.",
+                "b": "Energy sector segregated fund.",
+                "c": "Energy-sector index mutual fund.",
+                "d": "Exchange-traded fund of energy sector stocks."
+            },
+            "correct_answer": "d"
+        }
+    ]
+}

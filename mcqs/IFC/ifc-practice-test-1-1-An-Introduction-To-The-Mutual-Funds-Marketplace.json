@@ -1,0 +1,162 @@
+{
+  "title": "1 - An Introduction to the Mutual Funds Marketplace",
+  "description": "IFC Test 1",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the purpose of the fund facts?",
+      "options": {
+        "a": "To clarify for clients the nature and terms of their relationship with the dealer of the fund.",
+        "b": "To provide clients with key fund information that is relevant to their investment decisions.",
+        "c": "To better align the interests of the fund with the client.",
+        "d": "To determine if a fiduciary duty is present in the representative-client relationship."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "2",
+      "question": "What term describes the range of possible future outcomes on the price of a security?",
+      "options": {
+        "a": "Risk.",
+        "b": "Fluctuation.",
+        "c": "Return.",
+        "d": "Beta."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "3",
+      "question": "A client has $100,000 in a savings account, $5,000 in a chequing account, and $10,000 in loans. Calculate his net worth.",
+      "info": "Assets: $100,000 (savings) + $5,000 (chequing) = $105,000<br>Liabilities: $10,000 (loans)<br>Net worth = $105,000 - $10,000 = $95,000",
+      "options": {
+        "a": "$115,000",
+        "b": "$90,000",
+        "c": "$95,000",
+        "d": "$105,000"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "4",
+      "question": "Which newspaper article would be likely to result in foreign capital moving out of a country?",
+      "options": {
+        "a": "Corporate Taxes Reduced.",
+        "b": "International Ranking of Domestic Level of Education Rises Significantly.",
+        "c": "New Taxes on Foreign Direct Investment.",
+        "d": "Government Re-elected for a Fourth Consecutive Term."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "5",
+      "question": "Which example demonstrates a direct use of capital savings?",
+      "options": {
+        "a": "Purchasing an investment fund.",
+        "b": "Depositing funds in a Canadian bank account.",
+        "c": "Purchasing a company’s stocks.",
+        "d": "Building a new factory."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": "6",
+      "question": "Which of the following transactions takes place in the secondary market?",
+      "options": {
+        "a": "Issue of new debt and equity securities.",
+        "b": "Resale of previously issued securities.",
+        "c": "Issue of federal Treasury bills.",
+        "d": "Sale of mutual funds."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "7",
+      "question": "Which exchange in Canada deals exclusively with financial and equity futures and options?",
+      "options": {
+        "a": "Canadian Securities Exchange.",
+        "b": "The TSX Venture Exchange.",
+        "c": "The Montreal Exchange.",
+        "d": "The Toronto Stock Exchange."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "8",
+      "question": "What term applies to unemployment created by a new technology that eliminates the need for subway train drivers?",
+      "options": {
+        "a": "Natural.",
+        "b": "Frictional.",
+        "c": "Cyclical.",
+        "d": "Structural."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": "9",
+      "question": "The demand for blue widgets increases sharply due to a newspaper report that using blue widgets improves recovery from influenza. What can be said about the law of supply?",
+      "options": {
+        "a": "Price and production both increase.",
+        "b": "Price increases and production decreases.",
+        "c": "Price and production both decrease.",
+        "d": "Price decreases and production increases."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": "10",
+      "question": "If the Consumer Price Index (CPI) was 140.6 last year and 146.9 this year, what was the inflation rate over the year?",
+      "info": "Formula: (146.9 - 140.6) ÷ 140.6 × 100 = 4.48%",
+      "options": {
+        "a": "6.04%",
+        "b": "4.48%",
+        "c": "4.12%",
+        "d": "5.20%"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "11",
+      "question": "Gary chooses not to recommend that his client sell a current mutual fund to purchase a similar new mutual fund despite pressure to meet a sales target for the new fund. What responsibility applies to Gary’s action?",
+      "options": {
+        "a": "Legal.",
+        "b": "Compliance.",
+        "c": "Ethical.",
+        "d": "Professional."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": "12",
+      "question": "What does suitability mean?",
+      "options": {
+        "a": "Understanding the personal and financial knowledge of the client.",
+        "b": "Recommendations are appropriate for the client’s unique situation and investment objectives.",
+        "c": "The investor’s major concerns are addressed.",
+        "d": "Recommendations are not based on the personal and financial knowledge of the client."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": "13",
+      "question": "Which organization regulates mutual and investment funds?",
+      "options": {
+        "a": "CIRO.",
+        "b": "CDIC.",
+        "c": "Montreal Exchange.",
+        "d": "Securities commissions."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": "14",
+      "question": "What stage in the business cycle typically has increasing wages, rising inflation, rising interest rates with slowing sales, and decreasing business investment?",
+      "options": {
+        "a": "Expansion.",
+        "b": "Peak.",
+        "c": "Trough.",
+        "d": "Recovery."
+      },
+      "correct_answer": "b"
+    }
+  ]
+}
