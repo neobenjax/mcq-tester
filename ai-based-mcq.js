@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     generateBtn.parentNode.insertBefore(spinner, generateBtn.nextSibling);
 
     const toast = document.getElementById("toast");
+    let lastPromptUsed = "";
 
     async function generateQuizFromPrompt(prompt, apiKey) {
         const systemMessage = {
@@ -63,18 +64,22 @@ document.addEventListener("DOMContentLoaded", () => {
     function showToast(message, type = "success") {
         toast.textContent = message;
         toast.className = `toast show ${type}`;
-
         setTimeout(() => {
             toast.className = "toast";
         }, 4000);
     }
 
     generateBtn.addEventListener("click", async () => {
-        const prompt = document.getElementById("prompt-input").value;
-        const apiKey = document.getElementById("api-key").value;
+        const prompt = document.getElementById("prompt-input").value.trim();
+        const apiKey = document.getElementById("api-key").value.trim();
 
         if (!prompt || !apiKey) {
             showToast("Por favor ingresa un prompt y tu API Key.", "error");
+            return;
+        }
+
+        if (prompt === lastPromptUsed) {
+            showToast("Este prompt ya fue utilizado. Modifica el texto para generar un nuevo quiz.", "error");
             return;
         }
 
@@ -85,6 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
             const data = await generateQuizFromPrompt(prompt, apiKey);
             if (!quizCore.validateQuizData(data)) throw new Error("Estructura inválida.");
+            lastPromptUsed = prompt;
             lastLoadedQuizData = data;
             randomizedQuestions = quizCore.getSubsetOfQuestions(data);
             quizCore.loadQuizFromData(data, randomizedQuestions);
