@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     generateBtn.parentNode.insertBefore(spinner, generateBtn.nextSibling);
 
     const toast = document.getElementById("toast");
-    let lastPromptUsed = "";
+
+    let lastPrompt = localStorage.getItem("lastPrompt") || "";
 
     async function generateQuizFromPrompt(prompt, apiKey) {
         const systemMessage = {
@@ -38,6 +39,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         try {
             const parsed = JSON.parse(content);
+            // Guarda en localStorage el último prompt y su resultado
+            localStorage.setItem("lastPrompt", prompt);
+            localStorage.setItem("lastQuizData", JSON.stringify(parsed));
             return parsed;
         } catch (err) {
             console.error("Error parsing JSON from ChatGPT:", err);
@@ -46,10 +50,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function lockButtonTemporarily(button, seconds) {
+        const originalText = "Generar MCQ desde ChatGPT";
         button.disabled = true;
         let counter = seconds;
 
-        const originalText = "Generar MCQ desde ChatGPT";
         const interval = setInterval(() => {
             button.textContent = `Espera ${counter}s...`;
             counter--;
@@ -78,8 +82,18 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        if (prompt === lastPromptUsed) {
-            showToast("Este prompt ya fue utilizado. Modifica el texto para generar un nuevo quiz.", "error");
+        // 🚫 Si el prompt es igual al anterior y ya tenemos el quiz guardado, usa el caché
+        if (prompt === localStorage.getItem("lastPrompt")) {
+            try {
+                const cached = JSON.parse(localStorage.getItem("lastQuizData"));
+                if (!quizCore.validateQuizData(cached)) throw new Error("Estructura inválida en caché.");
+                lastLoadedQuizData = cached;
+                randomizedQuestions = quizCore.getSubsetOfQuestions(cached);
+                quizCore.loadQuizFromData(cached, randomizedQuestions);
+                showToast("Quiz cargado desde caché.", "success");
+            } catch (err) {
+                showToast("Error con datos en caché: " + err.message, "error");
+            }
             return;
         }
 
@@ -90,7 +104,6 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
             const data = await generateQuizFromPrompt(prompt, apiKey);
             if (!quizCore.validateQuizData(data)) throw new Error("Estructura inválida.");
-            lastPromptUsed = prompt;
             lastLoadedQuizData = data;
             randomizedQuestions = quizCore.getSubsetOfQuestions(data);
             quizCore.loadQuizFromData(data, randomizedQuestions);
