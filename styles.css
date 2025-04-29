@@ -245,6 +245,37 @@ button:active {
     background-color: #eef2f7;
 }
 
+.filter-controls {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.filter-controls button {
+    background-color: #ffffff;
+    color: #6200ee;
+    border: 2px solid #6200ee;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.filter-controls button:hover {
+    background-color: #e8eaf6;
+}
+
+
 
 @media (max-width: 600px) {
     body {

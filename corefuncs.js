@@ -107,6 +107,17 @@ function debounce(func, delay) {
     };
 }
 
+function resetFilters() {
+    window.filterAllBtn.disabled = true;
+    window.filterCorrectBtn.disabled = true;
+    window.filterWrongBtn.disabled = true;
+
+    // También mostrar todo
+    document.querySelectorAll(".question-block").forEach(block => {
+        block.style.display = "block";
+    });
+}
+
 // ==================
 // EXPONER FUNCIONES
 // ==================
@@ -136,6 +147,9 @@ document.addEventListener("DOMContentLoaded", () => {
     window.jsonLoader = document.getElementById("json-loader");
     window.questionCountSelect = document.getElementById("question-count-select");
     window.randomizeBtn = document.getElementById("randomize-btn");
+    window.filterAllBtn = document.getElementById("filter-all");
+    window.filterCorrectBtn = document.getElementById("filter-correct");
+    window.filterWrongBtn = document.getElementById("filter-wrong");
 
     window.lastLoadedQuizData = null;
     window.randomizedQuestions = [];
@@ -170,16 +184,22 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         scoreBanner.textContent = `Your final score is ${score}/${randomizedQuestions.length}`;
+
+        window.filterAllBtn.disabled = false;
+        window.filterCorrectBtn.disabled = false;
+        window.filterWrongBtn.disabled = false;
     });
 
     resetBtn.addEventListener("click", () => {
         if (lastLoadedQuizData) quizCore.loadQuizFromData(lastLoadedQuizData, randomizedQuestions);
+        resetFilters();
     });
 
     randomizeBtn.addEventListener("click", () => {
         if (!lastLoadedQuizData) return;
         randomizedQuestions = quizCore.getSubsetOfQuestions(lastLoadedQuizData);
         quizCore.loadQuizFromData(lastLoadedQuizData, randomizedQuestions);
+        resetFilters();
     });
 
     jsonLoader.addEventListener("change", async (event) => {
@@ -192,6 +212,7 @@ document.addEventListener("DOMContentLoaded", () => {
             lastLoadedQuizData = parsedData;
             randomizedQuestions = quizCore.getSubsetOfQuestions(parsedData);
             quizCore.loadQuizFromData(parsedData, randomizedQuestions);
+            resetFilters();
         } catch (err) {
             quizForm.innerHTML = `<div class="error-message">Error loading JSON: ${err.message}</div>`;
             console.error("JSON parse error:", err);
@@ -202,6 +223,35 @@ document.addEventListener("DOMContentLoaded", () => {
         if (lastLoadedQuizData) {
             randomizedQuestions = quizCore.getSubsetOfQuestions(lastLoadedQuizData);
             quizCore.animateRefresh(randomizedQuestions);
+            resetFilters();
         }
     }, 300));
+
+    filterAllBtn.addEventListener("click", () => {
+        document.querySelectorAll(".question-block").forEach(block => {
+            block.style.display = "block";
+        });
+    });
+
+    filterCorrectBtn.addEventListener("click", () => {
+        document.querySelectorAll(".question-block").forEach(block => {
+            const result = block.querySelector(".result-label");
+            if (result && result.classList.contains("correct")) {
+                block.style.display = "block";
+            } else {
+                block.style.display = "none";
+            }
+        });
+    });
+
+    filterWrongBtn.addEventListener("click", () => {
+        document.querySelectorAll(".question-block").forEach(block => {
+            const result = block.querySelector(".result-label");
+            if (result && result.classList.contains("wrong")) {
+                block.style.display = "block";
+            } else {
+                block.style.display = "none";
+            }
+        });
+    });
 });
