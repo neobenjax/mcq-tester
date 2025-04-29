@@ -1,0 +1,834 @@
+{
+    "title": "Investment Funds in Canada - Practice Quiz",
+    "description": "Sample quiz based on types of unemployment and economic concepts.",
+    "questions": [
+        {
+            "id": "1",
+            "question": "Which type of unemployment occurs when workers are temporarily between jobs, such as after finishing school or switching careers?",
+            "info": "Types include frictional, cyclical, structural, and seasonal unemployment.",
+            "options": {
+                "a": "Structural unemployment",
+                "b": "Seasonal unemployment",
+                "c": "Frictional unemployment",
+                "d": "Cyclical unemployment"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "2",
+            "question": "What type of unemployment is most directly caused by a downturn in the business cycle, such as a recession?",
+            "info": "This type rises during economic weakness and falls during recoveries.",
+            "options": {
+                "a": "Frictional unemployment",
+                "b": "Cyclical unemployment",
+                "c": "Structural unemployment",
+                "d": "Seasonal unemployment"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "3",
+            "question": "Which type of unemployment results from a mismatch between workers' skills and the skills needed for available jobs, often requiring retraining or relocation?",
+            "info": "This type is influenced by technological change, international competition, and government policy.",
+            "options": {
+                "a": "Frictional unemployment",
+                "b": "Cyclical unemployment",
+                "c": "Seasonal unemployment",
+                "d": "Structural unemployment"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "4",
+            "question": "Which type of unemployment occurs predictably during certain months due to the nature of specific industries, such as agriculture or tourism?",
+            "info": "It happens because some industries operate only during certain seasons.",
+            "options": {
+                "a": "Cyclical unemployment",
+                "b": "Frictional unemployment",
+                "c": "Structural unemployment",
+                "d": "Seasonal unemployment"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "5",
+            "question": "According to the Law of Demand, what happens to the quantity demanded of a good when its price rises (all else being equal)?",
+            "info": "The Law of Demand describes the inverse relationship between price and quantity demanded.",
+            "options": {
+                "a": "The quantity demanded increases",
+                "b": "The quantity demanded decreases",
+                "c": "The quantity demanded remains unchanged",
+                "d": "The quantity demanded becomes unpredictable"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "6",
+            "question": "According to the Law of Supply, what happens to the quantity supplied of a good when its price rises (all else being equal)?",
+            "info": "The Law of Supply describes the direct relationship between price and quantity supplied.",
+            "options": {
+                "a": "The quantity supplied decreases",
+                "b": "The quantity supplied increases",
+                "c": "The quantity supplied remains the same",
+                "d": "The quantity supplied becomes unpredictable"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "7",
+            "question": "Which factor is considered one of the most important in determining how much of a product individuals will buy or sell in the marketplace?",
+            "info": "The price of a product heavily influences buying and selling behavior in markets including stocks, bonds, and commodities.",
+            "options": {
+                "a": "Government policy",
+                "b": "Technological innovation",
+                "c": "Price",
+                "d": "Consumer education"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "8",
+            "question": "Which phase of the business cycle is characterized by stable inflation, rising corporate profits, strong stock market activity, and steady or falling unemployment?",
+            "info": "Identify the business cycle phase based on economic indicators.",
+            "options": {
+                "a": "Expansion",
+                "b": "Peak",
+                "c": "Contraction",
+                "d": "Recovery"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "9",
+            "question": "During which phase does demand begin to outstrip supply, leading to rising inflation, interest rates, and falling bond prices?",
+            "info": "Look for signs of overheating in the economy.",
+            "options": {
+                "a": "Expansion",
+                "b": "Trough",
+                "c": "Peak",
+                "d": "Contraction"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "10",
+            "question": "If an economy experiences two consecutive quarters of declining GDP, it is said to be in which phase of the business cycle?",
+            "info": "GDP decline signals a significant phase transition in the cycle.",
+            "options": {
+                "a": "Trough",
+                "b": "Recovery",
+                "c": "Expansion",
+                "d": "Contraction"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "11",
+            "question": "Which phase is typically associated with falling interest rates, a bond market rally, and the beginning of a recovery in consumer spending?",
+            "info": "Focus on the signs of a bottoming economy and early rebounds.",
+            "options": {
+                "a": "Expansion",
+                "b": "Trough",
+                "c": "Peak",
+                "d": "Contraction"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "12",
+            "question": "A company postpones investment decisions, limits rehiring, and maintains high caution after a major economic downturn. GDP has not yet surpassed its previous peak. Which phase are they operating in?",
+            "info": "Consider a phase where recovery has started but full confidence and employment have not yet returned.",
+            "options": {
+                "a": "Recovery",
+                "b": "Expansion",
+                "c": "Trough",
+                "d": "Contraction"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "13",
+            "question": "Case Scenario: Consumer confidence is low, household spending is reduced, business failures outnumber startups, and exports are falling. What phase is the economy likely experiencing?",
+            "info": "Connect real-world events to business cycle phases.",
+            "options": {
+                "a": "Expansion",
+                "b": "Peak",
+                "c": "Contraction",
+                "d": "Recovery"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "14",
+            "question": "Case Scenario: After a deep downturn, bond prices have started to rally due to falling interest rates. Consumers are cautiously beginning to spend again, and stock prices are rebounding. What phase does this describe?",
+            "info": "Look for signs that the economy is emerging from its lowest point.",
+            "options": {
+                "a": "Expansion",
+                "b": "Trough",
+                "c": "Peak",
+                "d": "Recovery"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "15",
+            "question": "Which of the following statements best describes the recovery phase?",
+            "info": "Focus on production, investment, employment, and GDP relative to the last peak.",
+            "options": {
+                "a": "GDP reaches new highs above the previous peak immediately.",
+                "b": "Businesses expand aggressively and hire many workers immediately.",
+                "c": "GDP returns to its previous peak, but businesses remain cautious and unemployment stays high.",
+                "d": "Consumers postpone spending and saving increases sharply."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "16",
+            "question": "Which type of responsibility requires ensuring that any investment recommendation is suitable based on a client's objectives, circumstances, and risk profile?",
+            "info": "Legal, ethical, and professional responsibilities all interact when working with clients.",
+            "options": {
+                "a": "Professional Responsibility",
+                "b": "Legal Responsibility",
+                "c": "Ethical Responsibility",
+                "d": "Compliance Responsibility"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "17",
+            "question": "Which responsibility demands that a mutual fund sales representative put the client’s needs before their own or those of their dealer?",
+            "info": "Consider client-centric ethical standards when selling investment products.",
+            "options": {
+                "a": "Compliance Responsibility",
+                "b": "Legal Responsibility",
+                "c": "Ethical Responsibility",
+                "d": "Professional Responsibility"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "18",
+            "question": "Which responsibility emphasizes building trust through excellent client service, product knowledge, and refusal to sell unsuitable products?",
+            "info": "Professional conduct helps build client loyalty and reflects well on the mutual fund industry.",
+            "options": {
+                "a": "Legal Responsibility",
+                "b": "Professional Responsibility",
+                "c": "Ethical Responsibility",
+                "d": "Compliance Responsibility"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "19",
+            "question": "Case Scenario: A representative strictly follows all dealer compliance policies but recommends unsuitable products to a client, resulting in losses. How would this behavior best be classified?",
+            "info": "Understand the difference between legal compliance and ethical behavior.",
+            "options": {
+                "a": "Unethical but legally compliant behavior",
+                "b": "Both unethical and illegal behavior",
+                "c": "Ethical and legally compliant behavior",
+                "d": "Professional misconduct only"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "20",
+            "question": "What does compliance primarily require from mutual fund representatives?",
+            "info": "Compliance relates to rule-following, dealer policies, and provincial securities laws.",
+            "options": {
+                "a": "Pursuing personal sales targets first",
+                "b": "Following legal and dealer-set rules and procedures",
+                "c": "Advising clients without considering their financial circumstances",
+                "d": "Maximizing product sales even if unsuitable"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "21",
+            "question": "What concept goes beyond simply obeying rules to include acting with moral integrity and protecting client interests even where no explicit rule applies?",
+            "info": "This is an important distinction for professional representatives handling client funds.",
+            "options": {
+                "a": "Fiduciary duty",
+                "b": "Compliance",
+                "c": "Legal responsibility",
+                "d": "Ethical conduct"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "22",
+            "question": "In the given example, why was the advisor found negligent after advising a retired couple to invest heavily in equity mutual funds?",
+            "info": "Consider legal and ethical duties when matching products to client profiles.",
+            "options": {
+                "a": "The advisor failed to maximize short-term returns",
+                "b": "The advisor failed to follow the Know Your Client (KYC) rule and recommend suitable investments",
+                "c": "The couple refused to sign a risk disclosure form",
+                "d": "The advisor complied fully with dealer incentives"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "23",
+            "question": "When might a fiduciary responsibility be recognized in the mutual fund sales representative-client relationship?",
+            "info": "Think about client vulnerability and degree of trust placed in the representative.",
+            "options": {
+                "a": "When the client is sophisticated and self-directs their portfolio",
+                "b": "Whenever the client is highly reliant on the representative's advice and is vulnerable",
+                "c": "When the client demands frequent changes to the investment strategy",
+                "d": "When the client signs an investment policy statement"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "24",
+            "question": "Which type of risk is caused by the sensitivity of a security’s price to new information and can be reduced through diversification?",
+            "info": "Understand how unique events can impact individual securities differently than the market as a whole.",
+            "options": {
+                "a": "Default risk",
+                "b": "Unique risk",
+                "c": "Market risk",
+                "d": "Interest rate risk"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "25",
+            "question": "Which type of risk arises when there is a possibility that a bond issuer will fail to make interest payments, and how can it be mitigated?",
+            "info": "Think about credit quality and concentration in fixed-income portfolios.",
+            "options": {
+                "a": "Default risk; by avoiding specializing in corporate bonds",
+                "b": "Exchange rate risk; by diversifying globally",
+                "c": "Interest rate risk; by laddering bond maturities",
+                "d": "Market risk; by investing only in government bonds"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "26",
+            "question": "What type of risk affects all securities due to overall market movements and cannot be eliminated through diversification?",
+            "info": "This is sometimes referred to as systematic risk.",
+            "options": {
+                "a": "Unique risk",
+                "b": "Interest rate risk",
+                "c": "Market risk",
+                "d": "Exchange rate risk"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "27",
+            "question": "Which risk relates to changes in the relative value of foreign currencies and can be reduced through hedging strategies?",
+            "info": "Currency exposure impacts investors who invest internationally.",
+            "options": {
+                "a": "Market risk",
+                "b": "Exchange rate risk",
+                "c": "Interest rate risk",
+                "d": "Unique risk"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "28",
+            "question": "Interest rate changes primarily impact which type of investment, and what is a way to reduce exposure to this risk?",
+            "info": "Consider how fixed-income securities react to changing interest rates.",
+            "options": {
+                "a": "Stocks; by buying foreign equities",
+                "b": "Mutual funds; by increasing leverage",
+                "c": "Fixed-income securities; by avoiding specialization in fixed-income securities",
+                "d": "Cash equivalents; by increasing long-term GIC exposure"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "29",
+            "question": "According to the risk-return trade-off chart, which type of fund offers the highest expected risk and highest expected return?",
+            "info": "Look at the position at the far right and top of the graph.",
+            "options": {
+                "a": "Real Estate Funds",
+                "b": "Equity Funds",
+                "c": "Specialty Funds",
+                "d": "Bond Funds"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "30",
+            "question": "Which type of fund is positioned lowest on both the risk and return scales in the chart?",
+            "info": "Consider the bottom left-hand corner of the chart.",
+            "options": {
+                "a": "Dividend Funds",
+                "b": "Money Market Funds",
+                "c": "Mortgage Funds",
+                "d": "Balanced Funds"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "31",
+            "question": "If an investor wants moderate risk and return, which type of fund would most appropriately match their profile based on the chart?",
+            "info": "Focus on the center area of the risk-return line.",
+            "options": {
+                "a": "Specialty Funds",
+                "b": "Balanced Funds",
+                "c": "Money Market Funds",
+                "d": "Mortgage Funds"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "32",
+            "question": "Where are Real Estate Funds positioned compared to Dividend Funds in terms of risk and return based on the chart?",
+            "info": "Consider their relative positions on the risk-return line.",
+            "options": {
+                "a": "Lower risk and return",
+                "b": "Higher risk and return",
+                "c": "Same risk and return",
+                "d": "Higher return, lower risk"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "33",
+            "question": "Based on the risk-return trade-off, which fund type lies between Bond Funds and Dividend Funds on the chart?",
+            "info": "Find the fund that appears in the middle between these two categories.",
+            "options": {
+                "a": "Mortgage Funds",
+                "b": "Balanced Funds",
+                "c": "Equity Funds",
+                "d": "Real Estate Funds"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "34",
+            "question": "What is a key problem when the definition of universes in the comparison method is too broad or variable?",
+            "info": "Focus on why clarity and comparability are important when building a comparison universe.",
+            "options": {
+                "a": "Universes are too small to be useful",
+                "b": "Funds being compared are not truly comparable (apples to oranges)",
+                "c": "Survivorship bias is completely eliminated",
+                "d": "All funds within the universe have identical risk profiles"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "35",
+            "question": "What effect occurs when a comparison universe does not match funds for risk profiles?",
+            "info": "Consider how differences in specialization (e.g., small-cap vs. large-cap) can affect risk comparability.",
+            "options": {
+                "a": "The comparison becomes more accurate",
+                "b": "Performance is measured perfectly against peers",
+                "c": "Universes become unrepresentative and misleading",
+                "d": "All funds automatically outperform their benchmarks"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "36",
+            "question": "What happens when a universe is partitioned into sub-universes or becomes too small?",
+            "info": "Think about the statistical reliability and usefulness of small samples.",
+            "options": {
+                "a": "The performance assessment becomes more reliable",
+                "b": "Comparisons are not reliable due to small sample sizes",
+                "c": "All managers rank equally",
+                "d": "Survivorship bias is avoided"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "37",
+            "question": "What is survivorship bias in the context of mutual fund comparison universes?",
+            "info": "This bias impacts long-term performance comparisons by removing failed funds from the sample.",
+            "options": {
+                "a": "Including new funds with no history",
+                "b": "Excluding defunct portfolios, making the surviving funds appear better",
+                "c": "Overweighting bond funds in the sample",
+                "d": "Using only index-tracking funds for comparison"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "38",
+            "question": "How can appraisal firms create further inconsistency in performance measurement?",
+            "info": "Appraisal firms have different universe construction methods.",
+            "options": {
+                "a": "All appraisal firms use identical universes",
+                "b": "Differences in universe construction may cause a manager to rank differently across firms",
+                "c": "Managers are ranked based only on their total assets",
+                "d": "Appraisal firms eliminate all types of bias by standardizing comparisons"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "39",
+            "question": "Which systematic withdrawal plan allows a client to request a periodic fixed dollar amount regardless of fund performance?",
+            "info": "Focus on the plan where the payment amount stays constant even if capital erosion occurs.",
+            "options": {
+                "a": "Fixed-Period Withdrawal Plan",
+                "b": "Fixed-Dollar (Constant) Withdrawal Plan",
+                "c": "Ratio Withdrawal Plan",
+                "d": "Life Withdrawal Plan"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "40",
+            "question": "Under which withdrawal plan is a fixed percentage of the fund's current value withdrawn regularly, adjusting with fund performance?",
+            "info": "The client receives fluctuating payments based on the current portfolio value.",
+            "options": {
+                "a": "Fixed-Period Withdrawal Plan",
+                "b": "Fixed-Dollar (Constant) Withdrawal Plan",
+                "c": "Ratio Withdrawal Plan",
+                "d": "Life Withdrawal Plan"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "41",
+            "question": "Case Scenario: A client wants to fund their child's 4-year university education by drawing down a mutual fund completely over the next 4 years. Which withdrawal plan would suit them best?",
+            "info": "Choose the plan that liquidates holdings over a specific period.",
+            "options": {
+                "a": "Fixed-Period Withdrawal Plan",
+                "b": "Life Withdrawal Plan",
+                "c": "Fixed-Dollar Withdrawal Plan",
+                "d": "Annuity"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "42",
+            "question": "Which withdrawal plan calculates payments based on the expected remaining lifetime of the client?",
+            "info": "This plan uses actuarial assumptions about life expectancy.",
+            "options": {
+                "a": "Fixed-Dollar Withdrawal Plan",
+                "b": "Fixed-Period Withdrawal Plan",
+                "c": "Life Withdrawal Plan",
+                "d": "Ratio Withdrawal Plan"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "43",
+            "question": "Which plan involves a contract with a life insurance company to provide fixed or variable payments, regardless of mutual fund performance?",
+            "info": "Consider a structured payment system linked to insurance products.",
+            "options": {
+                "a": "Fixed-Dollar Withdrawal Plan",
+                "b": "Annuity",
+                "c": "Fixed-Period Withdrawal Plan",
+                "d": "Ratio Withdrawal Plan"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "44",
+            "question": "Case Scenario: A retired client wants to supplement other sources of retirement income, but is willing to accept fluctuations in payment amounts based on the market value of their fund. Which plan would you recommend?",
+            "info": "Pick the plan that varies payouts according to current fund value.",
+            "options": {
+                "a": "Fixed-Period Withdrawal Plan",
+                "b": "Ratio Withdrawal Plan",
+                "c": "Fixed-Dollar Withdrawal Plan",
+                "d": "Annuity"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "45",
+            "question": "What critical disclosure must mutual funds include in their prospectuses when offering systematic withdrawal plans?",
+            "info": "Think about informing clients about the risks of their capital running out.",
+            "options": {
+                "a": "\"Your withdrawals are guaranteed regardless of fund performance.\"",
+                "b": "\"Your capital will remain intact as long as you withdraw fixed amounts.\"",
+                "c": "\"If payments are larger than earnings, your account will eventually run out of money.\"",
+                "d": "\"Mutual funds are protected against market declines when using withdrawal plans.\""
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "46",
+            "question": "Which type of annuity varies payments based on mutual fund performance rather than providing fixed guaranteed amounts?",
+            "info": "This is an annuity tied to market performance, not a flat payout.",
+            "options": {
+                "a": "Fixed Annuity",
+                "b": "Variable Annuity",
+                "c": "Life Annuity",
+                "d": "Fixed-Period Annuity"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "47",
+            "question": "Which index is used as the benchmark for Canadian equity funds?",
+            "info": "Think about the largest collection of equities listed on the Toronto Stock Exchange.",
+            "options": {
+                "a": "S&P 500",
+                "b": "MSCI EAFE Index",
+                "c": "S&P/TSX Composite Index",
+                "d": "FTSE Canada Universe Bond Index"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "48",
+            "question": "Which index measures the performance of the 60 largest companies listed on the Toronto Stock Exchange?",
+            "info": "Focus on the Canadian large-cap market segment.",
+            "options": {
+                "a": "S&P/TSX 60",
+                "b": "S&P 500",
+                "c": "FTSE Canada 91-Day T-Bill Index",
+                "d": "MSCI Canada ESG Leaders Index"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "49",
+            "question": "Which benchmark index would be most appropriate for comparing the performance of a U.S. equity mutual fund?",
+            "info": "Consider the most well-known U.S. stock index for publicly traded companies.",
+            "options": {
+                "a": "S&P/TSX Composite",
+                "b": "S&P 500",
+                "c": "MSCI World ESG Leaders Index",
+                "d": "FTSE Canada Universe Bond Index"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "50",
+            "question": "Which index tracks the performance of European, Australasian, and Far East stocks?",
+            "info": "Think of non-North American equity markets.",
+            "options": {
+                "a": "S&P/TSX Composite",
+                "b": "MSCI World ESG Leaders Index",
+                "c": "MSCI EAFE Index",
+                "d": "MSCI Canada ESG Leaders Index"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "51",
+            "question": "If a Canadian bond fund needed a benchmark, which index would most appropriately be used?",
+            "info": "Focus on the broad measure of Canadian government and corporate bond markets.",
+            "options": {
+                "a": "FTSE Canada Universe Bond Index",
+                "b": "S&P/TSX 60",
+                "c": "FTSE Canada 91-Day T-Bill Index",
+                "d": "S&P 500"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "52",
+            "question": "Which index is used for the cash component of a portfolio or for money market fund benchmarks?",
+            "info": "Think about very short-term, low-risk investments.",
+            "options": {
+                "a": "S&P/TSX Composite Index",
+                "b": "FTSE Canada Universe Bond Index",
+                "c": "MSCI EAFE Index",
+                "d": "FTSE Canada 91-Day T-Bill Index"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "53",
+            "question": "Case Scenario: A fund manager specializes in Canadian companies with strong environmental, social, and governance (ESG) ratings. Which benchmark would best suit the fund’s performance measurement?",
+            "info": "Choose an index focused on ESG standards within Canada.",
+            "options": {
+                "a": "S&P/TSX 60",
+                "b": "MSCI Canada ESG Leaders Index",
+                "c": "MSCI World ESG Leaders Index",
+                "d": "S&P/TSX Composite"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "54",
+            "question": "If a global ESG mutual fund is seeking a benchmark, which index should it use?",
+            "info": "Think broader than Canada, focused on ESG companies worldwide.",
+            "options": {
+                "a": "MSCI EAFE Index",
+                "b": "FTSE Canada Universe Bond Index",
+                "c": "MSCI World ESG Leaders Index",
+                "d": "S&P 500"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "55",
+            "question": "If a fund reports a return that is higher than its benchmark index, it has:",
+            "info": "Focus on interpreting performance relative to a benchmark.",
+            "options": {
+                "a": "Underperformed the benchmark",
+                "b": "Outperformed the benchmark",
+                "c": "Matched the benchmark",
+                "d": "Diversified away from the benchmark"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "56",
+            "question": "If a fund's return is lower than the index it is compared against, what can be concluded?",
+            "info": "Understand the relative performance against a standard benchmark.",
+            "options": {
+                "a": "The fund has outperformed",
+                "b": "The fund has underperformed",
+                "c": "The fund has matched the index exactly",
+                "d": "The fund has no comparable benchmark"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "57",
+            "question": "Which equity investment philosophy focuses on buying undervalued firms and avoiding large premiums for growth companies?",
+            "info": "Think about finding bargains in mature companies and holding investments for the long term.",
+            "options": {
+                "a": "Growth Investing",
+                "b": "Value Investing",
+                "c": "Momentum Investing",
+                "d": "Sector Rotation"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "58",
+            "question": "Which investment philosophy focuses on identifying companies in sectors expected to expand, even if their current prices are high relative to intrinsic value?",
+            "info": "Future earnings potential is more important than current valuation.",
+            "options": {
+                "a": "Value Investing",
+                "b": "Sector Rotation",
+                "c": "Growth Investing",
+                "d": "GARP (Growth at a Reasonable Price)"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "59",
+            "question": "Which investment philosophy is based on overweighting industries that are expected to outperform during different stages of the economic cycle?",
+            "info": "Focus more on industry timing than individual stock selection.",
+            "options": {
+                "a": "Value Investing",
+                "b": "Sector Rotation",
+                "c": "Momentum Investing",
+                "d": "Security Selection"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "60",
+            "question": "Which equity investment style believes that recent strong gains in earnings or stock price will continue, and often leads to concentrated portfolios?",
+            "info": "This style uses technical and quantitative models combined with high turnover.",
+            "options": {
+                "a": "Growth Investing",
+                "b": "Momentum Investing",
+                "c": "Value Investing",
+                "d": "Sector Trading"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "61",
+            "question": "What does the GARP (Growth at a Reasonable Price) investment philosophy combine?",
+            "info": "It blends earnings growth projections with valuation discipline (avoiding high P/Es).",
+            "options": {
+                "a": "Momentum and Sector Rotation",
+                "b": "Value and Growth Investing",
+                "c": "Security Selection and Sector Trading",
+                "d": "Growth and Fixed-Income Investing"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "62",
+            "question": "Which fixed-income philosophy involves shifting between long-term bonds and short-term T-bills based on anticipated interest rate movements?",
+            "info": "Think about predicting the interest rate environment to adjust bond duration.",
+            "options": {
+                "a": "Security Selection",
+                "b": "Sector Trading",
+                "c": "Interest Rate Anticipation",
+                "d": "Momentum Investing"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "63",
+            "question": "Which fixed-income strategy focuses on analyzing individual bonds using credit quality, cash flow potential, and issuer conditions?",
+            "info": "It involves fundamental and credit analysis of each security.",
+            "options": {
+                "a": "Sector Trading",
+                "b": "Security Selection",
+                "c": "Interest Rate Anticipation",
+                "d": "Growth Investing"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "64",
+            "question": "Which fixed-income philosophy involves varying the weights of different bond types based on credit fundamentals, historical valuations, and technical factors like supply and demand?",
+            "info": "It seeks value by rotating between different sectors of the bond market.",
+            "options": {
+                "a": "Sector Trading",
+                "b": "Security Selection",
+                "c": "Momentum Investing",
+                "d": "Growth Investing"
+            },
+            "correct_answer": "a"
+        },
+                {
+            "id": "65",
+            "question": "What is a key problem when a comparison universe is too broadly or variably defined?",
+            "info": "Think about how portfolio comparability is affected when universes are not precise.",
+            "options": {
+                "a": "Risk profiles match perfectly",
+                "b": "Funds are not comparable",
+                "c": "Survivorship bias is eliminated",
+                "d": "Universes become more representative"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "66",
+            "question": "Why is it important to match risk profiles when using a comparison universe to assess mutual fund performance?",
+            "info": "Consider the differences in volatility between funds focusing on different segments.",
+            "options": {
+                "a": "It ensures portfolios are compared only by size",
+                "b": "It guarantees that higher returns are always achieved",
+                "c": "It ensures that the comparisons are representative and fair",
+                "d": "It prevents diversification"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "67",
+            "question": "What is the effect of survivorship bias on a comparison universe?",
+            "info": "Focus on how the removal of unsuccessful funds impacts the perception of performance.",
+            "options": {
+                "a": "It makes poorly performing managers appear more successful",
+                "b": "It inflates the average performance by excluding unsuccessful funds",
+                "c": "It reduces the number of funds available for investment",
+                "d": "It increases the overall volatility of the universe"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "68",
+            "question": "How can the size of a universe affect its reliability when comparing fund performance?",
+            "info": "Consider the effects of partitioning universes into smaller groups.",
+            "options": {
+                "a": "Smaller universes become more reliable",
+                "b": "Larger universes lead to fewer biases",
+                "c": "Universes that are too small are less reliable",
+                "d": "Universes automatically reflect market-wide trends"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "69",
+            "question": "What challenge can arise from differences between appraisal firms' universe construction methods?",
+            "info": "Focus on how a fund’s ranking can differ across different firms’ assessments.",
+            "options": {
+                "a": "All firms use identical standards",
+                "b": "One firm’s universe might rank a fund much higher or lower than another’s",
+                "c": "Firms eliminate the need for performance comparison",
+                "d": "Universes perfectly match risk profiles across all firms"
+            },
+            "correct_answer": "b"
+        }
+    ]
+}
