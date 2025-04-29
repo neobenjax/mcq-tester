@@ -83,6 +83,7 @@ function loadQuizFromData(data, overrideQuestions = null) {
         const questionBlock = createQuestionBlock(q, index);
         quizForm.appendChild(questionBlock);
     });
+    showToast("Quiz cargado exitosamente.", "success");
 }
 
 // Animar refresco visual
@@ -118,6 +119,14 @@ function resetFilters() {
     });
 }
 
+function showToast(message, type = "success") {
+    toast.textContent = message;
+    toast.className = `toast show ${type}`;
+    setTimeout(() => {
+        toast.className = "toast";
+    }, 4000);
+}
+
 // ==================
 // EXPONER FUNCIONES
 // ==================
@@ -129,7 +138,9 @@ window.quizCore = {
     createQuestionBlock,
     loadQuizFromData,
     animateRefresh,
-    debounce
+    debounce,
+    resetFilters,
+    showToast
 };
 
 // ==================
@@ -141,6 +152,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const CLASS_WRONG = "wrong";
 
     window.quizForm = document.getElementById("quiz-form");
+    window.quizDropdown = document.getElementById("quiz-dropdown");
+    window.loadSelectedQuizBtn = document.getElementById("load-selected-quiz");
     window.submitBtn = document.getElementById("submit-btn");
     window.resetBtn = document.getElementById("reset-btn");
     window.scoreBanner = document.getElementById("score-banner");
@@ -151,8 +164,32 @@ document.addEventListener("DOMContentLoaded", () => {
     window.filterCorrectBtn = document.getElementById("filter-correct");
     window.filterWrongBtn = document.getElementById("filter-wrong");
 
+    window.toast = document.getElementById("toast");
+
     window.lastLoadedQuizData = null;
     window.randomizedQuestions = [];
+
+    const basePath = '/mcqs/IFC/';
+
+    const availableQuizzes = [
+        `${basePath}ifc-chapter15.json`,
+        `${basePath}ifc-practice-test-1-1-An-Introduction-To-The-Mutual-Funds-Marketplace.json`,
+        `${basePath}ifc-practice-test-1-2-the-know-your-client-communication-process.json`,
+        `${basePath}ifc-practice-test-1-3-understanding-investment-products-and-portfolios.json`,
+        `${basePath}ifc-practice-test-1-4-the-modern-mutual-fund.json`,
+        `${basePath}ifc-practice-test-1-5-analysis-of-mutual-funds.json`,
+        `${basePath}ifc-practice-test-1-6-understanding-alternative-managed-products.json`,
+        `${basePath}ifc-practice-test-1-7-Evaluating-and-Selecting-Mutual-Funds.json`,
+        `${basePath}ifc-practice-test-1-8-ethics-compliance-and-mutual-fund-regulations.json`,
+        `${basePath}ULTIMATE-QUIZZ`,
+    ];
+
+    availableQuizzes.forEach(path => {
+        const option = document.createElement("option");
+        option.value = path;
+        option.textContent = path.split("/").pop().replace(".json", "").replace(/-/g, " ").toUpperCase();
+        quizDropdown.appendChild(option);
+    });
 
     submitBtn.addEventListener("click", () => {
         if (!lastLoadedQuizData || !randomizedQuestions.length) return;
@@ -254,4 +291,29 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
+
+    loadSelectedQuizBtn.addEventListener("click", async () => {
+        const selectedPath = quizDropdown.value;
+        if (!selectedPath) {
+            alert("Por favor selecciona un quiz.");
+            return;
+        }
+
+        try {
+            const response = await fetch(selectedPath);
+            if (!response.ok) throw new Error("No se pudo cargar el archivo.");
+            const parsedData = await response.json();
+
+            if (!quizCore.validateQuizData(parsedData)) throw new Error("Formato de quiz inválido.");
+
+            lastLoadedQuizData = parsedData;
+            randomizedQuestions = quizCore.getSubsetOfQuestions(parsedData);
+            quizCore.loadQuizFromData(parsedData, randomizedQuestions);
+            resetFilters(); // 🎯 Resetear filtros y mostrar todo
+        } catch (error) {
+            console.error("Error cargando quiz:", error);
+            showToast("Error cargando el quiz " + err.message, "error");
+        }
+    });
+
 });

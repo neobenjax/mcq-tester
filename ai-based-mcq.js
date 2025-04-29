@@ -5,8 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
     spinner.style.display = "none";
     generateBtn.parentNode.insertBefore(spinner, generateBtn.nextSibling);
 
-    const toast = document.getElementById("toast");
-
     let lastPrompt = localStorage.getItem("lastPrompt") || "";
 
     async function generateQuizFromPrompt(prompt, apiKey) {
@@ -65,20 +63,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 1000);
     }
 
-    function showToast(message, type = "success") {
-        toast.textContent = message;
-        toast.className = `toast show ${type}`;
-        setTimeout(() => {
-            toast.className = "toast";
-        }, 4000);
-    }
-
     generateBtn.addEventListener("click", async () => {
         const prompt = document.getElementById("prompt-input").value.trim();
         const apiKey = document.getElementById("api-key").value.trim();
 
         if (!prompt || !apiKey) {
-            showToast("Por favor ingresa un prompt y tu API Key.", "error");
+            quizCore.showToast("Por favor ingresa un prompt y tu API Key.", "error");
             return;
         }
 
@@ -90,9 +80,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 lastLoadedQuizData = cached;
                 randomizedQuestions = quizCore.getSubsetOfQuestions(cached);
                 quizCore.loadQuizFromData(cached, randomizedQuestions);
-                showToast("Quiz cargado desde caché.", "success");
+                quizCore.showToast("Quiz cargado desde caché.", "success");
             } catch (err) {
-                showToast("Error con datos en caché: " + err.message, "error");
+                quizCore.showToast("Error con datos en caché: " + err.message, "error");
             }
             return;
         }
@@ -107,9 +97,9 @@ document.addEventListener("DOMContentLoaded", () => {
             lastLoadedQuizData = data;
             randomizedQuestions = quizCore.getSubsetOfQuestions(data);
             quizCore.loadQuizFromData(data, randomizedQuestions);
-            showToast("MCQ generado exitosamente.", "success");
+            quizCore.showToast("MCQ generado exitosamente.", "success");
         } catch (err) {
-            showToast("Error: " + err.message, "error");
+            quizCore.showToast("Error: " + err.message, "error");
         } finally {
             spinner.style.display = "none";
             lockButtonTemporarily(generateBtn, appConfig.generation.buttonLockSeconds);

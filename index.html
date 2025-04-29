@@ -9,13 +9,22 @@
 </head>
 <body>
     <div class="container">
-        <h1 id="quiz-title"></h1>
-        <p id="quiz-description"></p>
-
         <label for="json-loader" class="file-label">
             <input type="file" id="json-loader" accept=".json">
             <span class="button-styled">Load MCQ From File</span>
         </label>
+        
+        <div class="quiz-selector">
+            <label for="quiz-dropdown">Selecciona un Quiz:</label>
+            <select id="quiz-dropdown">
+                <option value="">-- Selecciona un Quiz --</option>
+            </select>
+            <button type="button" id="load-selected-quiz">Cargar Quiz</button>
+        </div>
+
+        <h1 id="quiz-title"></h1>
+        <p id="quiz-description"></p>
+
 
         <div class="controls">
             <label for="question-count-select">Questions to Display:</label>
@@ -43,6 +52,7 @@
         <button id="reset-btn">Reset</button>
     </div>
 
+    <div id="toast" class="toast"></div>
     <script src="corefuncs.js"></script>
 </body>
 </html>
