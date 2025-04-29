@@ -9,17 +9,24 @@
 </head>
 <body>
     <div class="container">
-        <label for="json-loader" class="file-label">
-            <input type="file" id="json-loader" accept=".json">
-            <span class="button-styled">Load MCQ From File</span>
-        </label>
+        <div class="quiz-load-section">
+            <div class="option-block" id="file-upload-block">
+                <h3>From File</h3>
+                <label class="file-label button-styled">
+                    <input type="file" id="json-loader" accept=".json" />
+                    <span>📤 Load MCQ From File</span>
+                </label>
+            </div>
         
-        <div class="quiz-selector">
-            <label for="quiz-dropdown">Selecciona un Quiz:</label>
-            <select id="quiz-dropdown">
-                <option value="">-- Selecciona un Quiz --</option>
-            </select>
-            <button type="button" id="load-selected-quiz">Cargar Quiz</button>
+            <div class="option-block">
+                <h3>Available Quizzes</h3>
+                <div class="quiz-selector">
+                    <select id="quiz-dropdown">
+                        <option value="">-- Selecciona un Quiz --</option>
+                    </select>
+                    <button type="button" id="load-selected-quiz" class="button-styled">Cargar Quiz</button>
+                </div>
+            </div>
         </div>
 
         <h1 id="quiz-title"></h1>

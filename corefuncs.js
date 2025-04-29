@@ -151,6 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const CLASS_CORRECT = "correct";
     const CLASS_WRONG = "wrong";
 
+    window.fileUploadBlock = document.getElementById("file-upload-block");
     window.quizForm = document.getElementById("quiz-form");
     window.quizDropdown = document.getElementById("quiz-dropdown");
     window.loadSelectedQuizBtn = document.getElementById("load-selected-quiz");
@@ -169,8 +170,9 @@ document.addEventListener("DOMContentLoaded", () => {
     window.lastLoadedQuizData = null;
     window.randomizedQuestions = [];
 
-    const host = '127.0.0.1';
-    const rootFolder = window.location.hostname === host ? '/' : '';
+    const githubHost = 'github.io';
+    const isRunningFromGithub = window.location.hostname.includes(githubHost);
+    const rootFolder = isRunningFromGithub ? '' : '/';
     const basePath = `${rootFolder}mcqs/IFC/`;
 
     const availableQuizzes = [
@@ -192,6 +194,10 @@ document.addEventListener("DOMContentLoaded", () => {
         option.textContent = path.split("/").pop().replace(".json", "").replace(/-/g, " ").toUpperCase();
         quizDropdown.appendChild(option);
     });
+
+    if (isRunningFromGithub && fileUploadBlock) {
+        fileUploadBlock.style.display = "none";
+    }
 
     submitBtn.addEventListener("click", () => {
         if (!lastLoadedQuizData || !randomizedQuestions.length) return;
