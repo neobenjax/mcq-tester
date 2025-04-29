@@ -169,7 +169,9 @@ document.addEventListener("DOMContentLoaded", () => {
     window.lastLoadedQuizData = null;
     window.randomizedQuestions = [];
 
-    const basePath = '/mcqs/IFC/';
+    const host = '127.0.0.1';
+    const rootFolder = window.location.hostname === host ? '/' : '';
+    const basePath = `${rootFolder}mcqs/IFC/`;
 
     const availableQuizzes = [
         `${basePath}ifc-chapter15.json`,
@@ -181,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `${basePath}ifc-practice-test-1-6-understanding-alternative-managed-products.json`,
         `${basePath}ifc-practice-test-1-7-Evaluating-and-Selecting-Mutual-Funds.json`,
         `${basePath}ifc-practice-test-1-8-ethics-compliance-and-mutual-fund-regulations.json`,
-        `${basePath}ULTIMATE-QUIZZ`,
+        `${basePath}ULTIMATE-QUIZZ.json`,
     ];
 
     availableQuizzes.forEach(path => {
