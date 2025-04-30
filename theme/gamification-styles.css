@@ -1,0 +1,53 @@
+#gamification-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+body {
+    padding-top: 60px; /* Reservamos espacio para que no se superponga */
+}
+
+.gamification-points,
+.gamification-streak {
+    background-color: #f1f3f4;
+    padding: 8px 14px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.glow-streak {
+    animation: glowEffect 1.5s ease-in-out infinite alternate;
+    background-color: #ffeb3b !important;
+    color: #000 !important;
+    box-shadow: 0 0 8px rgba(255, 193, 7, 0.9);
+}
+
+@keyframes glowEffect {
+    from {
+        box-shadow: 0 0 4px rgba(255, 193, 7, 0.5);
+    }
+    to {
+        box-shadow: 0 0 16px rgba(255, 193, 7, 1);
+    }
+}
+
+
+@media (max-width: 480px) {
+    #gamification-bar {
+        flex-direction: column;
+        gap: 8px;
+        font-size: 14px;
+    }
+}

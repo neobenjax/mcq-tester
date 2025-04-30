@@ -148,6 +148,9 @@ window.quizCore = {
 // ==================
 
 document.addEventListener("DOMContentLoaded", () => {
+    Gamification.updateUI();
+
+
     const CLASS_CORRECT = "correct";
     const CLASS_WRONG = "wrong";
 
@@ -195,10 +198,13 @@ document.addEventListener("DOMContentLoaded", () => {
             if (selected) {
                 if (selected.value === q.correct_answer) {
                     score++;
+                    Gamification.addPoints();          // +10 por default
+                    Gamification.incrementStreak();    // racha +1
                     resultLabel.textContent = "Correct";
                     resultLabel.className = `result-label ${CLASS_CORRECT}`;
                     selected.parentElement.classList.add("correct-answer");
                 } else {
+                    Gamification.resetStreak();
                     resultLabel.textContent = "Wrong";
                     resultLabel.className = `result-label ${CLASS_WRONG}`;
                     selected.parentElement.classList.add("wrong-answer");
@@ -208,6 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 }
             } else {
+                Gamification.resetStreak();
                 resultLabel.textContent = "No answer selected";
                 resultLabel.className = `result-label ${CLASS_WRONG}`;
             }
@@ -223,6 +230,7 @@ document.addEventListener("DOMContentLoaded", () => {
     resetBtn.addEventListener("click", () => {
         if (lastLoadedQuizData) quizCore.loadQuizFromData(lastLoadedQuizData, randomizedQuestions);
         resetFilters();
+        Gamification.updateUI();
     });
 
     randomizeBtn.addEventListener("click", () => {
