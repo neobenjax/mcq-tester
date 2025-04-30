@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.randomizedQuestions = [];
 
     const quizzesRootFolder = appConfig.env !== "local" ? '' : '/';
-    const basePath = `${quizzesRootFolder}mcqs/IFC/`;
+    const basePath = `${quizzesRootFolder}mcqs/`;
 
     availableQuizzes.forEach(path => {
         const option = document.createElement("option");

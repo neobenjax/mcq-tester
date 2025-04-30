@@ -1,0 +1,126 @@
+{
+    "title": "Curso de principante de Francés",
+    "description": "Preguntas de opción Múltiple de vocabulario en Francés",
+    "questions": [
+        {
+            "id": "1",
+            "question": "¿Cómo se dice 'hola' en francés?",
+            "info": "",
+            "options": {
+                "a": "Bonjour",
+                "b": "Gracias",
+                "c": "Salut",
+                "d": "Bonsoir"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "2",
+            "question": "¿Cuál es la traducción correcta de 'por favor'?",
+            "info": "",
+            "options": {
+                "a": "Merci",
+                "b": "Pardon",
+                "c": "S'il vous plaît",
+                "d": "Excusez-moi"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "3",
+            "question": "¿Qué significa 'Merci'?",
+            "info": "",
+            "options": {
+                "a": "De nada",
+                "b": "Gracias",
+                "c": "Adiós",
+                "d": "Hola"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "4",
+            "question": "¿Cómo se dice 'buenas noches' en francés?",
+            "info": "",
+            "options": {
+                "a": "Bonne nuit",
+                "b": "Bonsoir",
+                "c": "Bonne soirée",
+                "d": "Bonne journée"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "5",
+            "question": "¿Qué palabra francesa significa 'adiós'?",
+            "info": "",
+            "options": {
+                "a": "Salut",
+                "b": "Au revoir",
+                "c": "Merci",
+                "d": "Allô"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "6",
+            "question": "¿Cómo se traduce 'gracias' en francés?",
+            "info": "",
+            "options": {
+                "a": "Pardon",
+                "b": "Merci",
+                "c": "De rien",
+                "d": "Bonjour"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "7",
+            "question": "¿Qué significa 'Oui'?",
+            "info": "",
+            "options": {
+                "a": "No",
+                "b": "Sí",
+                "c": "Hola",
+                "d": "Por favor"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "8",
+            "question": "¿Cómo se dice 'no' en francés?",
+            "info": "",
+            "options": {
+                "a": "Non",
+                "b": "Pas",
+                "c": "N'est-ce pas",
+                "d": "Jamais"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "9",
+            "question": "¿Qué palabra usarías para decir 'disculpe' en francés?",
+            "info": "",
+            "options": {
+                "a": "Pardon",
+                "b": "Merci",
+                "c": "Bonjour",
+                "d": "Allô"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "10",
+            "question": "¿Cuál es la traducción correcta de 'buenos días' en francés?",
+            "info": "",
+            "options": {
+                "a": "Bonne nuit",
+                "b": "Bonsoir",
+                "c": "Bonjour",
+                "d": "Salut"
+            },
+            "correct_answer": "c"
+        }
+    ]
+}
