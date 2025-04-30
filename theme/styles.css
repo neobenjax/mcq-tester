@@ -201,6 +201,10 @@ button:active {
     background-color: #30009c;
 }
 
+#retry-wrong-btn {
+    margin-top: 10px;
+}
+
 #reset-btn {
     background-color: #e0e0e0;
     color: #333;

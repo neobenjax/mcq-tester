@@ -167,8 +167,10 @@ document.addEventListener("DOMContentLoaded", () => {
     window.filterAllBtn = document.getElementById("filter-all");
     window.filterCorrectBtn = document.getElementById("filter-correct");
     window.filterWrongBtn = document.getElementById("filter-wrong");
-
     window.toast = document.getElementById("toast");
+    window.retryBtn = document.getElementById("retry-wrong-btn");
+
+    let lastWrongQuestions = [];
 
     window.lastLoadedQuizData = null;
     window.randomizedQuestions = [];
@@ -220,6 +222,13 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
 
+        lastWrongQuestions = randomizedQuestions.filter(q => {
+            const selected = document.querySelector(`input[name=q${q.id}]:checked`);
+            return !selected || selected.value !== q.correct_answer;
+        });
+
+        retryBtn.style.display = lastWrongQuestions.length > 0 ? "block" : "none";
+
         scoreBanner.textContent = `Your final score is ${score}/${randomizedQuestions.length}`;
 
         window.filterAllBtn.disabled = false;
@@ -227,9 +236,26 @@ document.addEventListener("DOMContentLoaded", () => {
         window.filterWrongBtn.disabled = false;
     });
 
+    retryBtn.addEventListener("click", () => {
+        if (!lastLoadedQuizData || lastWrongQuestions.length === 0) return;
+    
+        quizForm.replaceChildren();
+        scoreBanner.textContent = "";
+        retryBtn.style.display = "none";
+    
+        // Cargar solo las preguntas incorrectas
+        randomizedQuestions = lastWrongQuestions;
+        loadQuizFromData(lastLoadedQuizData, randomizedQuestions);
+    
+        // Opcional: actualizar visual gamification (sin tocar puntos)
+        Gamification.updateUI();
+    });
+    
+
     resetBtn.addEventListener("click", () => {
         if (lastLoadedQuizData) quizCore.loadQuizFromData(lastLoadedQuizData, randomizedQuestions);
         resetFilters();
+        retryBtn.style.display = "none";
         Gamification.updateUI();
     });
 
