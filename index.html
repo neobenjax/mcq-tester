@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="theme/styles.css">
     <link rel="stylesheet" href="theme/gamification-styles.css">
 </head>
+
 <body>
     <div class="container">
         <!-- GAMIFICATION (siempre visible) -->
@@ -15,7 +17,7 @@
             <div class="gamification-points">Points: <span id="points-count">0</span></div>
             <div class="gamification-streak">🔥 Streak: <span id="streak-count">0</span></div>
         </div>
-    
+
         <!-- STEP 1 - QUIZ SELECTION -->
         <section id="step-1" class="step-section">
             <div class="controls">
@@ -47,7 +49,7 @@
                 </div>
             </div>
         </section>
-    
+
         <!-- STEP 2 - QUIZ EXECUTION -->
         <section id="step-2" class="step-section">
             <h1 id="quiz-title"></h1>
@@ -57,10 +59,20 @@
             <form id="quiz-form"></form>
             <button id="submit-btn">✅ Submit</button>
         </section>
-    
+
         <!-- STEP 3 - RESULTS -->
         <section id="step-3" class="step-section">
-            <div id="score-banner"></div>
+            <div id="score-visual" class="score-gauge-container">
+                <p class="score-label">Your Quiz Score</p>
+                <div class="gauge">
+                    <svg viewBox="0 0 100 50">
+                        <path class="gauge-bg" d="M10,50 A40,40 0 0,1 90,50" />
+                        <path class="gauge-fill" id="gauge-fill" d="M10,50 A40,40 0 0,1 90,50" />
+                    </svg>
+                    <div class="gauge-score" id="gauge-score">--%</div>
+                </div>
+                <p class="score-message" id="score-message">Your result will appear here</p>
+            </div>
             <button id="retry-wrong-btn" style="display:none;">🔁 Retry incorrect answers</button>
             <button id="review-frequent-btn" style="display: none;">🔁 Retry frequent incorrect answers</button>
             <div class="filter-controls">
@@ -72,7 +84,7 @@
             <button id="start-over-btn">⏪ Start Over</button>
         </section>
     </div>
-    
+
 
     <div id="toast" class="toast"></div>
     <script src="js/config.js"></script>
@@ -83,4 +95,5 @@
     <script src="js/corefuncs.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </body>
+
 </html>

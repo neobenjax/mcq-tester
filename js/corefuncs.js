@@ -71,7 +71,6 @@ function createQuestionBlock(q, index) {
 // Cargar preguntas al formulario
 function loadQuizFromData(data, overrideQuestions = null) {
     quizForm.replaceChildren();
-    scoreBanner.textContent = "";
 
     const questionsToUse = overrideQuestions || data.questions;
 
@@ -160,7 +159,6 @@ document.addEventListener("DOMContentLoaded", () => {
     window.loadSelectedQuizBtn = document.getElementById("load-selected-quiz");
     window.submitBtn = document.getElementById("submit-btn");
     window.retryBtn = document.getElementById("retry-btn");
-    window.scoreBanner = document.getElementById("score-banner");
     window.jsonLoader = document.getElementById("json-loader");
     window.questionCountSelect = document.getElementById("question-count-select");
     window.randomizeBtn = document.getElementById("randomize-btn");
@@ -240,23 +238,36 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const total = randomizedQuestions.length;
         const percentage = (score / total) * 100;
-        let message = "";
+        const gaugeFill = document.getElementById("gauge-fill");
+        const gaugeScore = document.getElementById("gauge-score");
+        const scoreMessage = document.getElementById("score-message");
+
+        // Calcular el stroke offset del gauge
+        const maxOffset = 125.6;
+        const offset = maxOffset - (maxOffset * percentage / 100);
+
+        // Color dinámico según desempeño
+        let strokeColor = "#4caf50"; // Verde por default
+        let message = `🎉 ¡Muy bien! Obtuviste ${score}/${total} (${Math.round(percentage)}%)`;
 
         if (percentage === 100) {
-            scoreBanner.classList.remove("score-fail");
-            scoreBanner.classList.add("score-pass");
-            message = `🏆 ¡AWESOME! 100% Correct (${score}/${total}). ¡You are the Quiz Master! 🎯`;
-        } else if (percentage >= 80) {
-            scoreBanner.classList.remove("score-fail");
-            scoreBanner.classList.add("score-pass");
-            message = `🎉 GREAT JOB! You got ${score}/${total} (${Math.round(percentage)}%)`;
-        } else {
-            scoreBanner.classList.remove("score-pass");
-            scoreBanner.classList.add("score-fail");
-            message = `🔄 YOU CAN DO BETTER. You got ${score}/${total} (${Math.round(percentage)}%)`;
+            strokeColor = "#00bfa5";
+            message = `🏆 ¡Perfecto! 100% correctas (${score}/${total}). ¡Eres un maestro del quiz! 🎯`;
+        } else if (percentage < 80 && percentage >= 50) {
+            strokeColor = "#ffc107";
+            message = `🟡 Vas bien. Obtuviste ${score}/${total} (${Math.round(percentage)}%)`;
+        } else if (percentage < 50) {
+            strokeColor = "#f44336";
+            message = `🔴 ¡Ánimo! Solo ${score}/${total} (${Math.round(percentage)}%)`;
         }
 
-        scoreBanner.textContent = message;
+        // Actualizar UI visual
+        gaugeFill.style.strokeDashoffset = offset;
+        gaugeFill.style.stroke = strokeColor;
+        gaugeScore.textContent = `${Math.round(percentage)}%`;
+        scoreMessage.textContent = message;
+
+        document.getElementById("score-visual").style.display = "block";
 
 
         filterAllBtn.disabled = false;
@@ -281,7 +292,6 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!lastLoadedQuizData || lastWrongQuestions.length === 0) return;
 
         quizForm.replaceChildren();
-        scoreBanner.textContent = "";
         retryWrongBtn.style.display = "none";
 
         // Cargar solo las preguntas incorrectas
@@ -311,7 +321,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Reiniciar interfaz y lógica
         quizForm.replaceChildren();
-        scoreBanner.textContent = "";
         lastLoadedQuizData = null;
         randomizedQuestions = [];
         lastWrongQuestions = [];
