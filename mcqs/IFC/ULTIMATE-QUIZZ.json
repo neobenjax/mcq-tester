@@ -1,6 +1,6 @@
 {
     "title": "Investment Funds in Canada - Practice Quiz",
-    "description": "Sample quiz based on types of unemployment and economic concepts.",
+    "description": "CORE CONCEPTS AND REVIEW",
     "questions": [
         {
             "id": "1",
@@ -770,7 +770,7 @@
             },
             "correct_answer": "a"
         },
-                {
+        {
             "id": "65",
             "question": "What is a key problem when a comparison universe is too broadly or variably defined?",
             "info": "Think about how portfolio comparability is affected when universes are not precise.",
@@ -829,6 +829,126 @@
                 "d": "Universes perfectly match risk profiles across all firms"
             },
             "correct_answer": "b"
+        },
+        {
+            "id": "70",
+            "question": "What entity is responsible for the day-to-day supervision of a mutual fund’s investment portfolio and often hires third parties for various functions?",
+            "info": "Think of the organization that oversees portfolio management and fund administration.",
+            "options": {
+                "a": "Fund Manager",
+                "b": "Trustee",
+                "c": "Custodian",
+                "d": "Distributor"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "71",
+            "question": "Who has the ultimate responsibility for a mutual fund trust's activities and ensuring investments align with the fund’s objectives?",
+            "info": "Applies to either directors (for corporations) or trustees (for trusts).",
+            "options": {
+                "a": "Dealing Representative",
+                "b": "Fund Manager",
+                "c": "Trustee",
+                "d": "Portfolio Manager"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "72",
+            "question": "What entity receives all fund money obtained from investors buying units/shares?",
+            "info": "This entity is often a trust company and is responsible for safekeeping the fund's assets.",
+            "options": {
+                "a": "Fund Manager",
+                "b": "Dealer",
+                "c": "Registrar",
+                "d": "Custodian"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "73",
+            "question": "Which mutual fund governance body must approve or review conflicts of interest identified by the fund manager under National Instrument 81-107?",
+            "info": "This body ensures actions are fair and reasonable for unitholders.",
+            "options": {
+                "a": "Fund Manager",
+                "b": "Trustee Board",
+                "c": "Independent Review Committee (IRC)",
+                "d": "Portfolio Management Board"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "74",
+            "question": "Case Scenario: A manager wishes to purchase securities underwritten by an affiliate of the fund. What is required before proceeding?",
+            "info": "Certain activities require prior approval due to potential conflicts.",
+            "options": {
+                "a": "Fund manager approval",
+                "b": "Trustee confirmation",
+                "c": "IRC approval",
+                "d": "Dealer authorization"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "75",
+            "question": "What role do dealing representatives play in mutual fund distribution?",
+            "info": "These individuals are often employed by banks, dealers, or mutual fund firms.",
+            "options": {
+                "a": "They supervise portfolio rebalancing and fee structure",
+                "b": "They ensure custody and safekeeping of client funds",
+                "c": "They explain fund objectives, transmit orders, and meet KYC standards",
+                "d": "They audit mutual fund financial statements"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "76",
+            "question": "Which statement best describes the fund manager’s role in cash management within a mutual fund?",
+            "info": "Cash must be available for redemptions, distributions, and purchases.",
+            "options": {
+                "a": "The fund manager holds cash in offshore accounts",
+                "b": "The fund manager minimizes cash holdings to avoid risk",
+                "c": "The fund manager balances cash for redemptions and reinvestment opportunities",
+                "d": "The fund manager relies exclusively on the custodian for all cash decisions"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "77",
+            "question": "Who maintains records of mutual fund units or shares and reconciles them through a book-based system?",
+            "info": "This entity may also handle registration and transfers.",
+            "options": {
+                "a": "Custodian",
+                "b": "Fund Manager",
+                "c": "Registrar and Transfer Agent",
+                "d": "Dealer"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "78",
+            "question": "Which document must be prepared and provided to clients and includes details such as fund holdings and performance?",
+            "info": "These documents ensure transparency and compliance.",
+            "options": {
+                "a": "Fund facts and simplified prospectus",
+                "b": "Investment policy statement",
+                "c": "KYC agreement",
+                "d": "Capital risk disclosure sheet"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "79",
+            "question": "What registration is required for mutual fund managers since late 2010 under provincial and territorial securities laws?",
+            "info": "Applies to all firms managing investment funds in Canada.",
+            "options": {
+                "a": "Registration with FINTRAC",
+                "b": "CRA Mutual Fund Tax Compliance",
+                "c": "Securities Administrator Registration",
+                "d": "Bank of Canada Licensing"
+            },
+            "correct_answer": "c"
         }
     ]
 }
