@@ -205,6 +205,10 @@ button:active {
     margin-top: 10px;
 }
 
+#review-frequent-btn {
+    margin-top: 10px;
+}
+
 #reset-btn {
     background-color: #e0e0e0;
     color: #333;

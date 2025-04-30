@@ -109,9 +109,9 @@ function debounce(func, delay) {
 }
 
 function resetFilters() {
-    window.filterAllBtn.disabled = true;
-    window.filterCorrectBtn.disabled = true;
-    window.filterWrongBtn.disabled = true;
+    filterAllBtn.disabled = true;
+    filterCorrectBtn.disabled = true;
+    filterWrongBtn.disabled = true;
 
     // También mostrar todo
     document.querySelectorAll(".question-block").forEach(block => {
@@ -169,6 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.filterWrongBtn = document.getElementById("filter-wrong");
     window.toast = document.getElementById("toast");
     window.retryBtn = document.getElementById("retry-wrong-btn");
+    window.reviewFrequentBtn = document.getElementById("review-frequent-btn");
 
     let lastWrongQuestions = [];
 
@@ -205,11 +206,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     resultLabel.textContent = "Correct";
                     resultLabel.className = `result-label ${CLASS_CORRECT}`;
                     selected.parentElement.classList.add("correct-answer");
+                    ErrorTracker.clearIfCorrect(q.id);
                 } else {
                     Gamification.resetStreak();
                     resultLabel.textContent = "Wrong";
                     resultLabel.className = `result-label ${CLASS_WRONG}`;
                     selected.parentElement.classList.add("wrong-answer");
+                    ErrorTracker.recordWrong(q.id);
                     const correctOption = document.querySelector(`input[name=q${q.id}][value=${q.correct_answer}]`);
                     if (correctOption) {
                         correctOption.parentElement.classList.add("correct-answer");
@@ -219,6 +222,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 Gamification.resetStreak();
                 resultLabel.textContent = "No answer selected";
                 resultLabel.className = `result-label ${CLASS_WRONG}`;
+                ErrorTracker.recordWrong(q.id);
+
             }
         });
 
@@ -229,11 +234,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
         retryBtn.style.display = lastWrongQuestions.length > 0 ? "block" : "none";
 
+        const frequentIds = ErrorTracker.getFrequentWrong(2);
+        reviewFrequentBtn.style.display = frequentIds.length > 0 ? "block" : "none";
+
+
+
         scoreBanner.textContent = `Your final score is ${score}/${randomizedQuestions.length}`;
 
-        window.filterAllBtn.disabled = false;
-        window.filterCorrectBtn.disabled = false;
-        window.filterWrongBtn.disabled = false;
+        filterAllBtn.disabled = false;
+        filterCorrectBtn.disabled = false;
+        filterWrongBtn.disabled = false;
+    });
+
+    reviewFrequentBtn.addEventListener("click", () => {
+        const ids = ErrorTracker.getFrequentWrong(2);
+        if (!ids.length || !lastLoadedQuizData) return;
+    
+        const filtered = lastLoadedQuizData.questions.filter(q => ids.includes(q.id));
+        randomizedQuestions = filtered;
+        loadQuizFromData(lastLoadedQuizData, randomizedQuestions);
+        reviewFrequentBtn.style.display = "none";
     });
 
     retryBtn.addEventListener("click", () => {
