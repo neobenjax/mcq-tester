@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.quizDropdown = document.getElementById("quiz-dropdown");
     window.loadSelectedQuizBtn = document.getElementById("load-selected-quiz");
     window.submitBtn = document.getElementById("submit-btn");
-    window.resetBtn = document.getElementById("reset-btn");
+    window.retryBtn = document.getElementById("retry-btn");
     window.scoreBanner = document.getElementById("score-banner");
     window.jsonLoader = document.getElementById("json-loader");
     window.questionCountSelect = document.getElementById("question-count-select");
@@ -168,8 +168,9 @@ document.addEventListener("DOMContentLoaded", () => {
     window.filterCorrectBtn = document.getElementById("filter-correct");
     window.filterWrongBtn = document.getElementById("filter-wrong");
     window.toast = document.getElementById("toast");
-    window.retryBtn = document.getElementById("retry-wrong-btn");
+    window.retryWrongBtn = document.getElementById("retry-wrong-btn");
     window.reviewFrequentBtn = document.getElementById("review-frequent-btn");
+    window.startOverBtn = document.getElementById("start-over-btn")
 
     let lastWrongQuestions = [];
 
@@ -232,51 +233,98 @@ document.addEventListener("DOMContentLoaded", () => {
             return !selected || selected.value !== q.correct_answer;
         });
 
-        retryBtn.style.display = lastWrongQuestions.length > 0 ? "block" : "none";
+        retryWrongBtn.style.display = lastWrongQuestions.length > 0 ? "block" : "none";
 
         const frequentIds = ErrorTracker.getFrequentWrong(2);
         reviewFrequentBtn.style.display = frequentIds.length > 0 ? "block" : "none";
 
+        const total = randomizedQuestions.length;
+        const percentage = (score / total) * 100;
+        let message = "";
 
+        if (percentage === 100) {
+            scoreBanner.classList.remove("score-fail");
+            scoreBanner.classList.add("score-pass");
+            message = `🏆 ¡AWESOME! 100% Correct (${score}/${total}). ¡You are the Quiz Master! 🎯`;
+        } else if (percentage >= 80) {
+            scoreBanner.classList.remove("score-fail");
+            scoreBanner.classList.add("score-pass");
+            message = `🎉 GREAT JOB! You got ${score}/${total} (${Math.round(percentage)}%)`;
+        } else {
+            scoreBanner.classList.remove("score-pass");
+            scoreBanner.classList.add("score-fail");
+            message = `🔄 YOU CAN DO BETTER. You got ${score}/${total} (${Math.round(percentage)}%)`;
+        }
 
-        scoreBanner.textContent = `Your final score is ${score}/${randomizedQuestions.length}`;
+        scoreBanner.textContent = message;
+
 
         filterAllBtn.disabled = false;
         filterCorrectBtn.disabled = false;
         filterWrongBtn.disabled = false;
+
+        StepController.goToStep(2);
     });
 
     reviewFrequentBtn.addEventListener("click", () => {
         const ids = ErrorTracker.getFrequentWrong(2);
         if (!ids.length || !lastLoadedQuizData) return;
-    
+
         const filtered = lastLoadedQuizData.questions.filter(q => ids.includes(q.id));
         randomizedQuestions = filtered;
         loadQuizFromData(lastLoadedQuizData, randomizedQuestions);
         reviewFrequentBtn.style.display = "none";
+        StepController.goToStep(1);
     });
 
-    retryBtn.addEventListener("click", () => {
+    retryWrongBtn.addEventListener("click", () => {
         if (!lastLoadedQuizData || lastWrongQuestions.length === 0) return;
-    
+
         quizForm.replaceChildren();
         scoreBanner.textContent = "";
-        retryBtn.style.display = "none";
-    
+        retryWrongBtn.style.display = "none";
+
         // Cargar solo las preguntas incorrectas
         randomizedQuestions = lastWrongQuestions;
         loadQuizFromData(lastLoadedQuizData, randomizedQuestions);
-    
+
         // Opcional: actualizar visual gamification (sin tocar puntos)
         Gamification.updateUI();
+        StepController.goToStep(1);
     });
-    
 
-    resetBtn.addEventListener("click", () => {
+
+    retryBtn.addEventListener("click", () => {
         if (lastLoadedQuizData) quizCore.loadQuizFromData(lastLoadedQuizData, randomizedQuestions);
         resetFilters();
-        retryBtn.style.display = "none";
+        retryWrongBtn.style.display = "none";
         Gamification.updateUI();
+        StepController.goToStep(1);
+    });
+
+    startOverBtn.addEventListener("click", () => {
+        // 🧹 Limpiar gamificación
+        Gamification.resetAll();
+
+        // 🧹 Limpiar errores frecuentes
+        ErrorTracker.reset();
+
+        // Reiniciar interfaz y lógica
+        quizForm.replaceChildren();
+        scoreBanner.textContent = "";
+        lastLoadedQuizData = null;
+        randomizedQuestions = [];
+        lastWrongQuestions = [];
+
+        // Ocultar botones y filtros
+        retryBtn.style.display = "none";
+        document.getElementById("review-frequent-btn").style.display = "none";
+        window.filterAllBtn.disabled = true;
+        window.filterCorrectBtn.disabled = true;
+        window.filterWrongBtn.disabled = true;
+
+        // Volver al paso 1
+        StepController.goToStep(0);
     });
 
     randomizeBtn.addEventListener("click", () => {
@@ -296,6 +344,7 @@ document.addEventListener("DOMContentLoaded", () => {
             lastLoadedQuizData = parsedData;
             randomizedQuestions = quizCore.getSubsetOfQuestions(parsedData);
             quizCore.loadQuizFromData(parsedData, randomizedQuestions);
+            StepController.goToStep(1);
             resetFilters();
         } catch (err) {
             quizForm.innerHTML = `<div class="error-message">Error loading JSON: ${err.message}</div>`;
@@ -315,6 +364,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll(".question-block").forEach(block => {
             block.style.display = "block";
         });
+        StepController.goToStep(1);
     });
 
     filterCorrectBtn.addEventListener("click", () => {
@@ -326,6 +376,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 block.style.display = "none";
             }
         });
+        StepController.goToStep(1);
     });
 
     filterWrongBtn.addEventListener("click", () => {
@@ -337,6 +388,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 block.style.display = "none";
             }
         });
+        StepController.goToStep(1);
     });
 
     loadSelectedQuizBtn.addEventListener("click", async () => {
@@ -356,6 +408,7 @@ document.addEventListener("DOMContentLoaded", () => {
             lastLoadedQuizData = parsedData;
             randomizedQuestions = quizCore.getSubsetOfQuestions(parsedData);
             quizCore.loadQuizFromData(parsedData, randomizedQuestions);
+            StepController.goToStep(1);
             resetFilters(); // 🎯 Resetear filtros y mostrar todo
         } catch (error) {
             console.error("Error cargando quiz:", error);

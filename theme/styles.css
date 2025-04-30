@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 960px;
     margin: auto;
     background: #fff;
     padding: 20px;
@@ -209,30 +209,53 @@ button:active {
     margin-top: 10px;
 }
 
-#reset-btn {
+#retry-btn {
     background-color: #e0e0e0;
     color: #333;
     margin-top: 10px;
 }
 
-#reset-btn:hover {
+#retry-btn:hover {
     background-color: #cfcfcf;
 }
 
-#reset-btn:active {
+#retry-btn:active {
     background-color: #bdbdbd;
+}
+
+#start-over-btn {
+    margin-top: 10px;
+    background-color: #eeeeee;
+    color: #333;
+}
+
+#start-over-btn:hover {
+    background-color: #d6d6d6;
 }
 
 #score-banner {
     margin-top: 20px;
-    font-weight: 500;
-    font-size: 16px;
-    color: #202124;
-    background-color: #e8f0fe;
-    padding: 12px 16px;
-    border-radius: 4px;
-    border-left: 4px solid #4285f4;
-    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3);
+    font-weight: 600;
+    font-size: 17px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    border-left: 5px solid #4285f4;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.4s ease;
+}
+
+/* Aprobado */
+.score-pass {
+    background-color: #e8f5e9;
+    border-left-color: #4caf50;
+    color: #2e7d32;
+}
+
+/* No aprobado */
+.score-fail {
+    background-color: #ffebee;
+    border-left-color: #e53935;
+    color: #b71c1c;
 }
 
 .fade {
@@ -320,6 +343,20 @@ button:active {
 
 .filter-controls button:hover {
     background-color: #e8eaf6;
+}
+
+.step-section {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fafafa;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.step-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 

@@ -10,67 +10,76 @@
 </head>
 <body>
     <div class="container">
+        <!-- GAMIFICATION (siempre visible) -->
         <div id="gamification-bar">
-            <div class="gamification-points">Puntos: <span id="points-count">0</span></div>
-            <div class="gamification-streak">🔥 Racha: <span id="streak-count">0</span></div>
+            <div class="gamification-points">Points: <span id="points-count">0</span></div>
+            <div class="gamification-streak">🔥 Streak: <span id="streak-count">0</span></div>
         </div>
-        <div class="quiz-load-section">
-            <div class="option-block" id="file-upload-block">
-                <h3>From File</h3>
-                <label class="file-label button-styled">
-                    <input type="file" id="json-loader" accept=".json" />
-                    <span>📤 Load MCQ From File</span>
-                </label>
+    
+        <!-- STEP 1 - QUIZ SELECTION -->
+        <section id="step-1" class="step-section">
+            <div class="controls">
+                <label for="question-count-select">Questions to Display:</label>
+                <select id="question-count-select">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="all" selected>All</option>
+                </select>
             </div>
-        
-            <div class="option-block">
-                <h3>Available Quizzes</h3>
-                <div class="quiz-selector">
-                    <select id="quiz-dropdown">
-                        <option value="">-- Select a Quiz --</option>
-                    </select>
-                    <button type="button" id="load-selected-quiz" class="button-styled">Load Quiz</button>
+            <div class="quiz-load-section">
+                <div class="option-block" id="file-upload-block">
+                    <h3>From File</h3>
+                    <label class="file-label button-styled">
+                        <input type="file" id="json-loader" accept=".json" />
+                        <span>📤 Load MCQ From File</span>
+                    </label>
+                </div>
+                <div class="option-block">
+                    <h3>Available Quizzes</h3>
+                    <div class="quiz-selector">
+                        <select id="quiz-dropdown">
+                            <option value="">-- Select a Quiz --</option>
+                        </select>
+                        <button type="button" id="load-selected-quiz" class="button-styled">Load Quiz</button>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <h1 id="quiz-title"></h1>
-        <p id="quiz-description"></p>
-
-
-        <div class="controls">
-            <label for="question-count-select">Questions to Display:</label>
-            <select id="question-count-select">
-                <option value="5">5</option>
-                <option value="10">10</option>
-                <option value="15">15</option>
-                <option value="20">20</option>
-                <option value="all" selected>All</option>
-            </select>
-            <button id="randomize-btn" type="button">Randomize</button>
-        </div>
-
-        <p>Total Questions: <span id="question-count"></span></p>
-
-        <form id="quiz-form"></form>
-
-        <button id="submit-btn">Submit</button>
-        <button id="retry-wrong-btn" style="display:none;">🔁 Retry incorrect answers</button>
-        <button id="review-frequent-btn" style="display: none;">🔁 Retry frequent incorrect answers</button>
-        <div id="score-banner"></div>
-        <div class="filter-controls">
-            <button type="button" id="filter-all" disabled>Show All</button>
-            <button type="button" id="filter-correct" disabled>Only Correct</button>
-            <button type="button" id="filter-wrong" disabled>Only Wrong</button>
-        </div>
-        <button id="reset-btn">Reset</button>
+        </section>
+    
+        <!-- STEP 2 - QUIZ EXECUTION -->
+        <section id="step-2" class="step-section">
+            <h1 id="quiz-title"></h1>
+            <p id="quiz-description"></p>
+            <button id="randomize-btn" type="button">🎲 Randomize</button>
+            <p>Total Questions: <span id="question-count"></span></p>
+            <form id="quiz-form"></form>
+            <button id="submit-btn">✅ Submit</button>
+        </section>
+    
+        <!-- STEP 3 - RESULTS -->
+        <section id="step-3" class="step-section">
+            <div id="score-banner"></div>
+            <button id="retry-wrong-btn" style="display:none;">🔁 Retry incorrect answers</button>
+            <button id="review-frequent-btn" style="display: none;">🔁 Retry frequent incorrect answers</button>
+            <div class="filter-controls">
+                <button type="button" id="filter-all" disabled>Show All</button>
+                <button type="button" id="filter-correct" disabled>Only Correct</button>
+                <button type="button" id="filter-wrong" disabled>Only Wrong</button>
+            </div>
+            <button id="retry-btn">🔄 Retry same quiz</button>
+            <button id="start-over-btn">⏪ Start Over</button>
+        </section>
     </div>
+    
 
     <div id="toast" class="toast"></div>
     <script src="js/config.js"></script>
     <script src="js/quizzes.js"></script>
     <script src="js/gamification.js"></script>
     <script src="js/tracking.js"></script>
+    <script src="js/steps-controller.js"></script>
     <script src="js/corefuncs.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </body>
