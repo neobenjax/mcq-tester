@@ -82,7 +82,7 @@ function loadQuizFromData(data, overrideQuestions = null) {
         const questionBlock = createQuestionBlock(q, index);
         quizForm.appendChild(questionBlock);
     });
-    showToast("Quiz cargado exitosamente.", "success");
+    showToast(locales.quizLoadedSuccess, "success");
 }
 
 // Animar refresco visual
@@ -236,13 +236,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     score++;
                     Gamification.addPoints();          // +10 por default
                     Gamification.incrementStreak();    // racha +1
-                    resultLabel.textContent = "Correct";
+                    resultLabel.textContent = locales.correctAnswer;
                     resultLabel.className = `result-label ${CLASS_CORRECT}`;
                     selected.parentElement.classList.add("correct-answer");
                     ErrorTracker.clearIfCorrect(q.id);
                 } else {
                     Gamification.resetStreak();
-                    resultLabel.textContent = "Wrong";
+                    resultLabel.textContent = locales.wrongAnswer;
                     resultLabel.className = `result-label ${CLASS_WRONG}`;
                     selected.parentElement.classList.add("wrong-answer");
                     ErrorTracker.recordWrong(q.id);
@@ -253,7 +253,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             } else {
                 Gamification.resetStreak();
-                resultLabel.textContent = "No answer selected";
+                resultLabel.textContent = locales.noAnswerSelected;
                 resultLabel.className = `result-label ${CLASS_WRONG}`;
                 ErrorTracker.recordWrong(q.id);
 
@@ -282,17 +282,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Color dinámico según desempeño
         let strokeColor = "#4caf50"; // Verde por default
-        let message = `🎉 ¡Muy bien! Obtuviste ${score}/${total} (${Math.round(percentage)}%)`;
+        let message = locales.excellentWork
+            .replace("{score}", score)
+            .replace("{total}", total)
+            .replace("{percentage}", Math.round(percentage));
+
 
         if (percentage === 100) {
             strokeColor = "#00bfa5";
-            message = `🏆 ¡Perfecto! 100% correctas (${score}/${total}). ¡Eres un maestro del quiz! 🎯`;
+            message = locales.marvelousWork
+                .replace("{score}", score)
+                .replace("{total}", total);
         } else if (percentage < 80 && percentage >= 50) {
             strokeColor = "#ffc107";
-            message = `🟡 Vas bien. Obtuviste ${score}/${total} (${Math.round(percentage)}%)`;
+            message = locales.gettingGood
+                .replace("{score}", score)
+                .replace("{total}", total)
+                .replace("{percentage}", Math.round(percentage));
         } else if (percentage < 50) {
             strokeColor = "#f44336";
-            message = `🔴 ¡Ánimo! Solo ${score}/${total} (${Math.round(percentage)}%)`;
+            message = locales.tryAgain
+                .replace("{score}", score)
+                .replace("{total}", total)
+                .replace("{percentage}", Math.round(percentage));
         }
 
         // Actualizar UI visual
@@ -403,14 +415,14 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
             const text = await file.text();
             const parsedData = JSON.parse(text);
-            if (!quizCore.validateQuizData(parsedData)) throw new Error("Invalid quiz structure.");
+            if (!quizCore.validateQuizData(parsedData)) throw new Error(locales.invalidQuizStructure);
             lastLoadedQuizData = parsedData;
             randomizedQuestions = quizCore.getSubsetOfQuestions(parsedData);
             quizCore.loadQuizFromData(parsedData, randomizedQuestions);
             StepController.goToStep(1);
             resetFilters();
         } catch (err) {
-            quizForm.innerHTML = `<div class="error-message">Error loading JSON: ${err.message}</div>`;
+            quizForm.innerHTML = `<div class="error-message">${locales.errorLoadingQuiz}${err.message}</div>`;
             console.error("JSON parse error:", err);
         }
     });
@@ -466,16 +478,16 @@ document.addEventListener("DOMContentLoaded", () => {
     loadSelectedQuizBtn.addEventListener("click", async () => {
         const selectedPath = quizDropdown.value;
         if (!selectedPath) {
-            alert("Por favor selecciona un quiz.");
+            alert(locales.selectQuizFirst);
             return;
         }
 
         try {
             const response = await fetch(selectedPath);
-            if (!response.ok) throw new Error("No se pudo cargar el archivo.");
+            if (!response.ok) throw new Error("Unable to load the file.");
             const parsedData = await response.json();
 
-            if (!quizCore.validateQuizData(parsedData)) throw new Error("Formato de quiz inválido.");
+            if (!quizCore.validateQuizData(parsedData)) throw new Error("Invalid format.");
 
             lastLoadedQuizData = parsedData;
             randomizedQuestions = quizCore.getSubsetOfQuestions(parsedData);
@@ -484,7 +496,7 @@ document.addEventListener("DOMContentLoaded", () => {
             resetFilters(); // 🎯 Resetear filtros y mostrar todo
         } catch (error) {
             console.error("Error cargando quiz:", error);
-            showToast("Error cargando el quiz " + err.message, "error");
+            showToast("There was an error trying to load the quiz " + err.message, "error");
         }
     });
 
