@@ -58,6 +58,7 @@
             <p>Total Questions: <span id="question-count"></span></p>
             <form id="quiz-form"></form>
             <button id="submit-btn">✅ Submit</button>
+            <button id="back-to-score-btn" style="display: none;">Finish Review</button>
         </section>
 
         <!-- STEP 3 - RESULTS -->
@@ -76,9 +77,9 @@
             <button id="retry-wrong-btn" style="display:none;">🔁 Retry incorrect answers</button>
             <button id="review-frequent-btn" style="display: none;">🔁 Retry frequent incorrect answers</button>
             <div class="filter-controls">
-                <button type="button" id="filter-all" disabled>Show All</button>
-                <button type="button" id="filter-correct" disabled>Only Correct</button>
-                <button type="button" id="filter-wrong" disabled>Only Wrong</button>
+                <button type="button" id="filter-all" disabled>Review All</button>
+                <button type="button" id="filter-correct" disabled>Review Correct</button>
+                <button type="button" id="filter-wrong" disabled>Review Wrong</button>
             </div>
             <button id="retry-btn">🔄 Retry same quiz</button>
             <button id="start-over-btn">⏪ Start Over</button>

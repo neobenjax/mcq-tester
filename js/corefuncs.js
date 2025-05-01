@@ -118,6 +118,38 @@ function resetFilters() {
     });
 }
 
+function enterReviewMode() {
+    // Desactiva inputs
+    document.querySelectorAll('input[type="radio"]').forEach(radio => {
+        radio.disabled = true;
+    });
+
+    // Oculta o desactiva el botón de Submit
+    submitBtn.disabled = true;
+    submitBtn.style.display = "none";
+    // Oculta o desactiva el botón de randomize
+    randomizeBtn.disabled = true;
+    randomizeBtn.style.display = "none";
+
+    backToScoreBtn.style.display = "block";
+}
+
+function exitReviewMode(){
+    // Reactiva inputs
+    document.querySelectorAll('input[type="radio"]').forEach(radio => {
+        radio.disabled = false;
+    });
+
+    // Muestra el botón de Submit
+    submitBtn.disabled = false;
+    submitBtn.style.display = "block";
+    // Muestra el botón de randomize
+    randomizeBtn.disabled = false;
+    randomizeBtn.style.display = "block";
+
+    backToScoreBtn.style.display = "none";
+}
+
 function showToast(message, type = "success") {
     toast.textContent = message;
     toast.className = `toast show ${type}`;
@@ -139,6 +171,7 @@ window.quizCore = {
     animateRefresh,
     debounce,
     resetFilters,
+    enterReviewMode,
     showToast
 };
 
@@ -165,10 +198,11 @@ document.addEventListener("DOMContentLoaded", () => {
     window.filterAllBtn = document.getElementById("filter-all");
     window.filterCorrectBtn = document.getElementById("filter-correct");
     window.filterWrongBtn = document.getElementById("filter-wrong");
+    window.backToScoreBtn = document.getElementById("back-to-score-btn");
     window.toast = document.getElementById("toast");
     window.retryWrongBtn = document.getElementById("retry-wrong-btn");
     window.reviewFrequentBtn = document.getElementById("review-frequent-btn");
-    window.startOverBtn = document.getElementById("start-over-btn")
+    window.startOverBtn = document.getElementById("start-over-btn");
 
     let lastWrongQuestions = [];
 
@@ -270,9 +304,29 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("score-visual").style.display = "block";
 
 
-        filterAllBtn.disabled = false;
-        filterCorrectBtn.disabled = false;
-        filterWrongBtn.disabled = false;
+        const correctCount = randomizedQuestions.filter(q => {
+            const selected = document.querySelector(`input[name=q${q.id}]:checked`);
+            return selected && selected.value === q.correct_answer;
+        }).length;
+        
+        const wrongCount = randomizedQuestions.filter(q => {
+            const selected = document.querySelector(`input[name=q${q.id}]:checked`);
+            return !selected || selected.value !== q.correct_answer;
+        }).length;
+        
+        const hasCorrect = correctCount > 0;
+        const hasWrong = wrongCount > 0;
+
+        filterCorrectBtn.style.display = hasCorrect ? "block" : "none";
+        filterWrongBtn.style.display = hasWrong ? "block" : "none";
+        filterAllBtn.style.display = (hasCorrect && hasWrong) ? "block" : "none";
+
+        
+        // Activar si están visibles
+        filterAllBtn.disabled = filterAllBtn.style.display === "none";
+        filterCorrectBtn.disabled = filterCorrectBtn.style.display === "none";
+        filterWrongBtn.disabled = filterWrongBtn.style.display === "none";
+        
 
         StepController.goToStep(2);
     });
@@ -373,6 +427,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll(".question-block").forEach(block => {
             block.style.display = "block";
         });
+        enterReviewMode();
         StepController.goToStep(1);
     });
 
@@ -385,6 +440,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 block.style.display = "none";
             }
         });
+        enterReviewMode();
         StepController.goToStep(1);
     });
 
@@ -397,7 +453,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 block.style.display = "none";
             }
         });
+        enterReviewMode();
         StepController.goToStep(1);
+    });
+
+    backToScoreBtn.addEventListener("click", () => {
+        // Volver a la pantalla de puntaje
+        exitReviewMode();
+        StepController.goToStep(2);
     });
 
     loadSelectedQuizBtn.addEventListener("click", async () => {

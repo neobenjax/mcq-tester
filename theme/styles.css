@@ -201,6 +201,17 @@ button:active {
     background-color: #30009c;
 }
 
+#back-to-score-btn {
+    margin-top: 10px;
+    background-color: #ddddff;
+    color: #333;
+    border: 1px solid #bbb;
+}
+
+#back-to-score-btn:hover {
+    background-color: #ccc;
+}
+
 #retry-wrong-btn {
     margin-top: 10px;
 }
