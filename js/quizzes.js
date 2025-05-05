@@ -9,5 +9,6 @@ const availableQuizzes = [
     'IFC/ifc-practice-test-1-7-Evaluating-and-Selecting-Mutual-Funds.json',
     'IFC/ifc-practice-test-1-8-ethics-compliance-and-mutual-fund-regulations.json',
     'IFC/ULTIMATE-QUIZZ.json',
+    'IFC/ifc-practice-test-2.json',
     'frances/principante-vocabulario.json'
 ];

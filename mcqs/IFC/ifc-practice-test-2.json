@@ -1,0 +1,1314 @@
+{
+    "title": "Investment Funds in Canada - Practice Quiz",
+    "description": "Sample quiz based on mutual funds, risk-return, and ethics.",
+    "questions": [
+        {
+            "id": "1",
+            "question": "Identify one of the steps in determining the suitability of an investment for a client?",
+            "info": "To make a suitable recommendation, it is essential that the representative knows the client and knows the products that the client may potentially purchase. An important step in getting to know the client is developing a client risk profile.\n\nReference | Chapter 1 – The Role of the Mutual Fund Sales Representative\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "Developing a risk profile.",
+                "b": "Deferring to a financial planner.",
+                "c": "Determining market volatility.",
+                "d": "Purchasing mutual fund units."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "2",
+            "question": "A client asks for advice on setting his household budget. What is the first action that a mutual fund representative should take?",
+            "info": "A mutual fund representative cannot help clients with developing a financial plan through establishing a household budget. The representative would need to refer his client to a specialist in the appropriate area, in this case, a financial planner.\n\nReference | Chapter 1 – The Role of the Mutual Fund Sales Representative\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "Gather the client’s financial information and prepare an initial budget.",
+                "b": "Schedule a meeting to discuss the budget.",
+                "c": "Refer the client to a licensed stockbroker.",
+                "d": "Refer the client to a financial planner."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "3",
+            "question": "On what specific market does bond trading take place?",
+            "info": "Virtually all bond market activity and trading take place on the over-the-counter (OTC) market. The OTC market differs from an auction market because it is considered a negotiated market where dealers post their bid and ask prices and deal among themselves.\n\nReference | Chapter 2 – Overview of the Canadian Financial Marketplace\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "Over-the-counter market.",
+                "b": "Money market.",
+                "c": "Montreal Exchange",
+                "d": "Primary market."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "4",
+            "question": "Nic’s client has asked to invest in a high-risk mutual fund. Although the fund is well-respected and has had a history of good returns, Nic is aware that his client has low risk tolerance. He advises her that the investment is not suitable for her portfolio. What responsibility applies to Nic’s action?",
+            "info": "Nic is fulfilling his legal responsibility to ensure any investment recommended or client order accepted is suitable for the client. An investment is suitable if it fits the client’s goals, financial condition, personal circumstances, investment knowledge and risk profile.\n\nReference | Chapter 1 – The Role of the Mutual Fund Sales Representative\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "Ethical.",
+                "b": "Disclosure.",
+                "c": "Professional.",
+                "d": "Legal."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "5",
+            "question": "Indicate the rule that states that you must use due diligence to learn the essential facts relevant to every client and every order.",
+            "info": "The Know Your Client rule states that you must use due diligence to learn the essential facts relevant to every client and every order.\n\nReference | Chapter 1 – The Role of the Mutual Fund Sales Representative\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "Suitability.",
+                "b": "Disclosure.",
+                "c": "Know your client.",
+                "d": "Professional."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "6",
+            "question": "The following clients all have $10,000 to invest. How would you rank your clients based on the probability that you would recommend an investment in an equity fund to them, from least likely to most likely?\n\nBob, Age 35, Net Worth $500,000, no dependants.\nKhalid, Age 55, Net Worth $85,000, 2 dependants.\nSabrina and Nick, Ages 28 and 32, Net Worth $300,000, 1 dependant.\nMarg, Age 75, Net Worth $800,000, retired, 1 dependant.",
+            "info": "An equity fund is among the most volatile type of mutual fund. Khalid’s low net worth and dependants make him the least suitable for a volatile investment. Marg would be next due to her age and dependant. Bob is more suitable than Sabrina and Nick due to higher net worth and no dependants.\n\nReference | Chapter 1 – The Role of the Mutual Fund Sales Representative\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "1, 3, 2, 4.",
+                "b": "3, 1, 4, 2.",
+                "c": "4, 1, 3, 2.",
+                "d": "2, 4, 3, 1."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "7",
+            "question": "XYZ is a registered dealer and is selling mutual funds to its investors. Which regulator is responsible for regulating the sale of mutual funds to XYZ investors?",
+            "info": "The Canadian Investment Regulatory Organization is responsible for regulating the activities of mutual fund dealers.\n\nReference | Chapter 2 – Overview of the Canadian Financial Marketplace\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "CSA.",
+                "b": "TSX.",
+                "c": "CIRO.",
+                "d": "OSFI."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "8",
+            "question": "What type of security gives an investor an ownership stake in a company?",
+            "info": "With an investment in shares, an investor actually buys a \"share\" of the company, thus gaining an ownership stake in the company.\n\nReference | Chapter 2 – Overview of the Canadian Financial Marketplace\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "Call option.",
+                "b": "Secured bond.",
+                "c": "Futures contract.",
+                "d": "Preferred share."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "9",
+            "question": "HD Inc., a privately-owned company, is in talks with an underwriter because it wants to have its shares listed on the Toronto Stock Exchange. What type of public offering would the underwriter make use of?",
+            "info": "When a company has never issued securities to the public, an underwriter would make use of an initial public offering.\n\nReference | Chapter 2 – Overview of the Canadian Financial Marketplace\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "Initial public offering.",
+                "b": "Money market offering.",
+                "c": "Secondary market offering.",
+                "d": "Secured bond float."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "10",
+            "question": "Assume that the provincial regulator advises all dealers to report any material changes within 5 business days, but CIRO advises its dealers to report material changes within 2 business days. Which rule will apply?",
+            "info": "If an SRO rule differs from a provincial rule, the more stringent rule of the two applies.\n\nReference | Chapter 2 – Overview of the Canadian Financial Marketplace\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "None of the two rules will apply as the dealers are authorized to design their own rule.",
+                "b": "Provincial regulator rule will apply.",
+                "c": "The CIRO rule will apply.",
+                "d": "It is up to the dealer to choose the rule that does not conflict with its business."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "11",
+            "question": "Calculate GDP using the expenditure approach in the following situation:\nConsumption = $10,000,000\nInvestment = $1,000,000\nGovernment Spending = $2,000,000\nExports = $2,000,000\nImports = $500,000",
+            "info": "GDP = Consumption + Investment + Government Spending + (Exports - Imports)\n= $10,000,000 + $1,000,000 + $2,000,000 + ($2,000,000 - $500,000) = $14,500,000\n\nReference | Chapter 3 – Overview of Economics\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "$11,500,000",
+                "b": "$10,000,000",
+                "c": "$15,000,000",
+                "d": "$14,500,000"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "12",
+            "question": "A review of economic indicators shows that GDP, corporate profits, and industrial production are steadily rising. Choose the correct statement.",
+            "info": "The indicators listed are coincidental indicators, which help identify the current phase of the business cycle. Rising GDP, corporate profits, and industrial production indicate an expansion phase.\n\nReference | Chapter 3 – Overview of Economics\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "The economy is currently in the expansion phase.",
+                "b": "Manufacturing and trade sales volume will likely fall.",
+                "c": "Average duration of employment has likely fallen.",
+                "d": "Economic growth should be expected to decline soon."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "13",
+            "question": "What is the term used to refer to the difference between GDP based on actual production and potential production?",
+            "info": "The output gap represents the difference between actual (real) GDP and potential GDP, which is the economy’s full capacity.\n\nReference | Chapter 3 – Overview of Economics\nLearning Domain | An Introduction to the Mutual Funds Marketplace",
+            "options": {
+                "a": "Nominal GDP.",
+                "b": "Output gap.",
+                "c": "Real GDP.",
+                "d": "Frictional unemployment."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "14",
+            "question": "Mary purchased a $250,000 home 5 years ago with a $200,000 mortgage. Her home is now worth $350,000 and her mortgage balance is $150,000. What is the change in Mary’s net worth?",
+            "info": "Net worth = Assets - Liabilities. Increase in assets = $100,000. Decrease in liabilities = $50,000. Net worth increased by $150,000.\n\nReference | Chapter 4 – Getting to Know the Client\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "$150,000 increase.",
+                "b": "$100,000 increase.",
+                "c": "$50,000 increase.",
+                "d": "$40,000 increase."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "15",
+            "question": "What type of mutual fund is most appropriate for an objective of safety of capital?",
+            "info": "Money market mutual funds are low-risk and prioritize capital preservation, making them ideal for investors focused on safety.\n\nReference | Chapter 4 – Getting to Know the Client\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Equity.",
+                "b": "Preferred dividend.",
+                "c": "Money market.",
+                "d": "Fixed income."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "16",
+            "question": "Choose the statement that is an example of a well-designed financial objective.",
+            "info": "A well-designed financial objective is specific and measurable. Saving $50,000 in 3 years is the only clearly defined goal.\n\nReference | Chapter 4 – Getting to Know the Client\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Retire with a comfortable income.",
+                "b": "Save $50,000 in 3 years to pay for a new boat.",
+                "c": "Travel extensively in 15 years.",
+                "d": "Have 70% of pre-retirement income after retirement."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "17",
+            "question": "What bias is typically a characteristic of a female investor?",
+            "info": "Status quo bias reflects a tendency to avoid change and is commonly found in female investor behavior.\n\nReference | Chapter 5 – Behavioural Finance\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Status quo bias.",
+                "b": "Hindsight.",
+                "c": "Availability bias.",
+                "d": "Loss aversion bias."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "18",
+            "question": "You are writing an investment communication to encourage investors to take advantage of currently depressed equity prices. Which bias should you focus on?",
+            "info": "Regret aversion prevents investors from taking action during buying opportunities due to fear of making the wrong choice.\n\nReference | Chapter 5 – Behavioural Finance\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Overconfidence.",
+                "b": "Regret aversion.",
+                "c": "Loss aversion.",
+                "d": "Endowment."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "19",
+            "question": "Harry earns $36,000 in the current year. His employer contributes $1,500 to his defined contribution pension plan. What is Harry’s maximum contribution to the plan?",
+            "info": "The maximum combined contribution is the lesser of 18% of income or the annual limit. 18% of $36,000 = $6,480. $6,480 - $1,500 = $4,980.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "$22,000",
+                "b": "$1,500",
+                "c": "$4,980",
+                "d": "$6,480"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "20",
+            "question": "Keegan over-contributed to his Tax-Free Savings Account (TFSA). What penalty rate will be applied to his excess contribution amount until it is withdrawn?",
+            "info": "Over-contributions to a TFSA are taxed at 1% per month until the excess amount is withdrawn.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "5% per year.",
+                "b": "1% per year.",
+                "c": "1% per month.",
+                "d": "0.5% per month."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "21",
+            "question": "What is the term that refers to the required repayment of social benefits by taxpayers whose income is above a certain threshold?",
+            "info": "The term is 'clawback,' a repayment of social benefits based on income level, according to the Income Tax Act.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Refund.",
+                "b": "Penalty.",
+                "c": "Income-tested repayment.",
+                "d": "Clawback."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "22",
+            "question": "Which of the following is a disadvantage of defined contribution pension plans?",
+            "info": "Defined contribution plans do not guarantee a fixed retirement income; the final benefit depends on investment performance.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "The employer and the employee cannot anticipate how much they will need to contribute.",
+                "b": "They are more highly regulated than defined benefit plans.",
+                "c": "The final benefit is not known until retirement.",
+                "d": "They are difficult to understand and administer."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "23",
+            "question": "What phase in the life cycle would typically be characterized by the lowest level of risk tolerance?",
+            "info": "Stage 5 (retired) investors have the lowest risk tolerance due to the need to preserve capital and produce income.\n\nReference | Chapter 4 – Getting to Know the Client\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Stage 2 (family commitment years).",
+                "b": "Stage 3 (mature earning years).",
+                "c": "Stage 5 (retired).",
+                "d": "Stage 4 (nearing retirement)."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "24",
+            "question": "What asset allocation would most likely be appropriate for a retired couple in their 80’s who, with a substantial pension income, are concerned about wealth transfer and estate building?",
+            "info": "An asset mix focused on capital preservation is recommended. The couple has no immediate income need, so a high proportion in money market funds is suitable.\n\nReference | Chapter 4 – Getting to Know the Client\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "50% fixed-income funds, 50% equity funds.",
+                "b": "10% equity funds, 10% fixed-income funds, 80% money market funds.",
+                "c": "50% fixed-income funds, 20% equity funds, 30% money market funds.",
+                "d": "30% equity funds, 60% fixed-income funds, 10% money market funds."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "25",
+            "question": "When considering the life-cycle hypothesis, what is a key feature of the mature earning years?",
+            "info": "Stage 3 of the life-cycle sees increased disposable income, allowing greater equity investment.\n\nReference | Chapter 4 – Getting to Know the Client\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Estate building and wealth transfer.",
+                "b": "Shift towards a higher equity weighting.",
+                "c": "Increased degree of risk aversion.",
+                "d": "Lack of liquidity."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "26",
+            "question": "What characteristic of human beings explains the process of cognitive bias?",
+            "info": "Cognitive biases are subconscious mental processes that simplify information processing.\n\nReference | Chapter 5 – Behavioural Finance\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Spontaneously arising mental states.",
+                "b": "Involuntary expressions related to feelings.",
+                "c": "Abilities to expand upon minimal inputs.",
+                "d": "Subconscious mental procedures for processing information."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "27",
+            "question": "Which of the following biases does Samantha demonstrate by refusing to change her asset allocation?",
+            "info": "Status quo bias is the tendency to keep things the same rather than reevaluate or change decisions.\n\nReference | Chapter 5 – Behavioural Finance\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Status Quo.",
+                "b": "Loss Aversion.",
+                "c": "Regret Aversion.",
+                "d": "Hindsight."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "28",
+            "question": "What is the termination option available to holders of a locked-in Registered Retirement Savings Plan (RRSP) at retirement?",
+            "info": "LIFs are the most common vehicle for locked-in RRSP funds.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Fixed Term Annuity.",
+                "b": "Life Income Fund (LIF).",
+                "c": "Registered Retirement Income Fund (RRIF).",
+                "d": "Tax-Free Savings Account (TFSA)."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "29",
+            "question": "Ryan and Emily want to provide for their children’s university tuition. What is the most effective income-splitting strategy for this situation?",
+            "info": "The RESP allows income to be taxed in the child’s hands, providing an income-splitting benefit.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Tax Free Savings Plan.",
+                "b": "Spousal Registered Retirement Savings Plan.",
+                "c": "Registered Retirement Savings Plan.",
+                "d": "Registered Educational Savings Plan."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "30",
+            "question": "Gareth retired after 20 years of participation in a career average pension plan with a defined benefit percentage of 1.5%. His average annual salary was $60,000. What is Gareth’s annual earned pension?",
+            "info": "Annual pension = average salary × benefit % × years of service = $60,000 × 1.5% × 20 = $18,000.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "$90,000",
+                "b": "$18,000",
+                "c": "$27,000",
+                "d": "$36,000"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "31",
+            "question": "An individual has RRSP contribution room of $18,450 and has contributed $8,000 to his plan. His spouse has contributed $4,400 to hers. How much can he contribute to a spousal RRSP?",
+            "info": "The individual may contribute to a spousal RRSP up to the unused portion of his own contribution room: $18,450 - $8,000 = $10,450.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "$10,450",
+                "b": "$18,450",
+                "c": "$8,500",
+                "d": "$0"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "32",
+            "question": "Which of the following statements about the carry-forward rule for unused RRSP contributions is correct?",
+            "info": "Since 1996, unused RRSP contribution room can be carried forward indefinitely.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Unused RRSP contributions cannot be carried forward.",
+                "b": "Unused RRSP contributions may be carried forward indefinitely.",
+                "c": "Unused RRSP contributions may be carried forward for a maximum of five years.",
+                "d": "Unused RRSP contributions may be carried back three years but cannot be carried forward."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "24",
+            "question": "What asset allocation would most likely be appropriate for a retired couple in their 80’s who, with a substantial pension income, are concerned about wealth transfer and estate building?",
+            "info": "An asset mix focused on capital preservation is recommended. The couple has no immediate income need, so a high proportion in money market funds is suitable.\n\nReference | Chapter 4 – Getting to Know the Client\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "50% fixed-income funds, 50% equity funds.",
+                "b": "10% equity funds, 10% fixed-income funds, 80% money market funds.",
+                "c": "50% fixed-income funds, 20% equity funds, 30% money market funds.",
+                "d": "30% equity funds, 60% fixed-income funds, 10% money market funds."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "25",
+            "question": "When considering the life-cycle hypothesis, what is a key feature of the mature earning years?",
+            "info": "Stage 3 of the life-cycle sees increased disposable income, allowing greater equity investment.\n\nReference | Chapter 4 – Getting to Know the Client\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Estate building and wealth transfer.",
+                "b": "Shift towards a higher equity weighting.",
+                "c": "Increased degree of risk aversion.",
+                "d": "Lack of liquidity."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "26",
+            "question": "What characteristic of human beings explains the process of cognitive bias?",
+            "info": "Cognitive biases are subconscious mental processes that simplify information processing.\n\nReference | Chapter 5 – Behavioural Finance\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Spontaneously arising mental states.",
+                "b": "Involuntary expressions related to feelings.",
+                "c": "Abilities to expand upon minimal inputs.",
+                "d": "Subconscious mental procedures for processing information."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "27",
+            "question": "Which of the following biases does Samantha demonstrate by refusing to change her asset allocation?",
+            "info": "Status quo bias is the tendency to keep things the same rather than reevaluate or change decisions.\n\nReference | Chapter 5 – Behavioural Finance\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Status Quo.",
+                "b": "Loss Aversion.",
+                "c": "Regret Aversion.",
+                "d": "Hindsight."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "28",
+            "question": "What is the termination option available to holders of a locked-in Registered Retirement Savings Plan (RRSP) at retirement?",
+            "info": "LIFs are the most common vehicle for locked-in RRSP funds.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Fixed Term Annuity.",
+                "b": "Life Income Fund (LIF).",
+                "c": "Registered Retirement Income Fund (RRIF).",
+                "d": "Tax-Free Savings Account (TFSA)."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "29",
+            "question": "Ryan and Emily want to provide for their children’s university tuition. What is the most effective income-splitting strategy for this situation?",
+            "info": "The RESP allows income to be taxed in the child’s hands, providing an income-splitting benefit.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Tax Free Savings Plan.",
+                "b": "Spousal Registered Retirement Savings Plan.",
+                "c": "Registered Retirement Savings Plan.",
+                "d": "Registered Educational Savings Plan."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "30",
+            "question": "Gareth retired after 20 years of participation in a career average pension plan with a defined benefit percentage of 1.5%. His average annual salary was $60,000. What is Gareth’s annual earned pension?",
+            "info": "Annual pension = average salary × benefit % × years of service = $60,000 × 1.5% × 20 = $18,000.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "$90,000",
+                "b": "$18,000",
+                "c": "$27,000",
+                "d": "$36,000"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "31",
+            "question": "An individual has RRSP contribution room of $18,450 and has contributed $8,000 to his plan. His spouse has contributed $4,400 to hers. How much can he contribute to a spousal RRSP?",
+            "info": "The individual may contribute to a spousal RRSP up to the unused portion of his own contribution room: $18,450 - $8,000 = $10,450.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "$10,450",
+                "b": "$18,450",
+                "c": "$8,500",
+                "d": "$0"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "32",
+            "question": "Which of the following statements about the carry-forward rule for unused RRSP contributions is correct?",
+            "info": "Since 1996, unused RRSP contribution room can be carried forward indefinitely.\n\nReference | Chapter 6 – Tax and Retirement Planning\nLearning Domain | The Know Your Client Communication Process",
+            "options": {
+                "a": "Unused RRSP contributions cannot be carried forward.",
+                "b": "Unused RRSP contributions may be carried forward indefinitely.",
+                "c": "Unused RRSP contributions may be carried forward for a maximum of five years.",
+                "d": "Unused RRSP contributions may be carried back three years but cannot be carried forward."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "33",
+            "question": "Which of the following options for terminating an RRSP will result in the highest immediate tax consequences?",
+            "info": "When an investor chooses to terminate an RRSP by making a lump-sum withdrawal, the entire amount is added to income and taxed accordingly. The other options allow deferral and/or spreading of taxes.",
+            "options": {
+                "a": "Lump sum withdrawal.",
+                "b": "Registered Retirement Income Fund (RRIF).",
+                "c": "Fixed-term annuity.",
+                "d": "Life annuity."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "34",
+            "question": "Which supplier of capital to a corporation will benefit most if the corporation is successful?",
+            "info": "Common shareholders benefit the most when a corporation does well, but are paid last after all creditors and preferred shareholders.",
+            "options": {
+                "a": "Preferred shareholder.",
+                "b": "Secured bondholder.",
+                "c": "Common shareholder.",
+                "d": "Debenture holder."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "35",
+            "question": "What type of risk does an investor face because the preferred shares she owns ranks below long-term bond holders?",
+            "info": "Preferred shares are subject to credit risk due to their lower ranking in case of bankruptcy compared to bondholders.",
+            "options": {
+                "a": "Interest rate risk.",
+                "b": "Credit risk.",
+                "c": "Extension risk.",
+                "d": "Call risk."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "36",
+            "question": "Which statement about increasing purchasing power is true?",
+            "info": "To increase purchasing power, an investment must have a nominal return greater than the inflation rate. That ensures positive real returns.",
+            "options": {
+                "a": "Nominal return must be higher than real return.",
+                "b": "Real return must be higher than inflation.",
+                "c": "Nominal return must be higher than inflation.",
+                "d": "Real return must be higher than nominal return."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "37",
+            "question": "If you had invested $1,000 in AAA Mutual Fund and reinvested income over 2 years, how much would you have at the end of year 2?",
+            "info": "Year 1 return: 12.5% = $125. Year 2 return: -5% on $1,125 = -$56.25. Final amount: $1,068.75.",
+            "options": {
+                "a": "$950.50",
+                "b": "$1,125.50",
+                "c": "$1,068.75",
+                "d": "$1,020.75"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "38",
+            "question": "Calculate the 2-year geometric return for the AAA Mutual Fund. Round to 2 decimals.",
+            "info": "Geometric return = [(1 + 0.125)(1 - 0.05)]^½ - 1 = 3.38%",
+            "options": {
+                "a": "7.50%",
+                "b": "6.88%",
+                "c": "-2.45%",
+                "d": "3.38%"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "39",
+            "question": "Select the most accurate statement about the effects of diversification on a portfolio.",
+            "info": "Adding securities reduces risk more significantly at first; the benefit decreases with more securities added.",
+            "options": {
+                "a": "Fewer securities reduce the effects of diversification.",
+                "b": "Negative correlation increases risk.",
+                "c": "After a point, more securities reduce risk less.",
+                "d": "Positive correlation reduces risk."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "40",
+            "question": "What does it take for an investment to maintain its purchasing power?",
+            "info": "If inflation equals nominal return, the real return is 0%, maintaining purchasing power.",
+            "options": {
+                "a": "Nominal return > inflation.",
+                "b": "Real return > nominal return.",
+                "c": "Growth > nominal rate.",
+                "d": "Real return = 0%"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "41",
+            "question": "If Widget Inc. pays $10,000 in dividends from $40,000 in net earnings, how much will retained earnings increase?",
+            "info": "Retained earnings increase = $40,000 - $10,000 = $30,000.",
+            "options": {
+                "a": "$10,000",
+                "b": "$30,000",
+                "c": "$200,000",
+                "d": "$40,000"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "42",
+            "question": "Identify the correct statement regarding the statement of financial position.",
+            "info": "It shows a snapshot of a company’s financial situation at a specific date: assets = liabilities + equity.",
+            "options": {
+                "a": "Presents a snapshot of financial position on a specific date.",
+                "b": "Assets + Equity = Liabilities.",
+                "c": "Shows change in assets/liabilities over time.",
+                "d": "Expenses are under current liabilities."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "43",
+            "question": "An investor with a margin account buys 100 shares at $18. Loan value = 70%. What margin is required?",
+            "info": "Margin = $18 × 100 × 0.30 = $540.",
+            "options": {
+                "a": "$1,800",
+                "b": "$70",
+                "c": "$540",
+                "d": "$1,260"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "44",
+            "question": "Which trade gives the investor the right, but not the obligation, to buy an asset at a set price on a set date?",
+            "info": "Call options give buyers the right to buy the underlying asset at the strike price by a certain date.",
+            "options": {
+                "a": "Purchase stock on margin.",
+                "b": "Purchase a put option.",
+                "c": "Purchase a future contract.",
+                "d": "Purchase a call option."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "45",
+            "question": "Interest rates expected to fall. Mrs. Gupta wants a $1,000 bond for <1 year. Which do you recommend?",
+            "info": "Zero-coupon bonds are most sensitive to interest rate drops and would rise the most in value.",
+            "options": {
+                "a": "4% GOC bond, 8-year maturity.",
+                "b": "6% GOC bond, 10-year maturity.",
+                "c": "Zero-coupon bond, 12-year maturity.",
+                "d": "8% GOC bond, 12-year maturity."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "46",
+            "question": "Which statement about market efficiency is correct?",
+            "info": "If markets are efficient, prices reflect all available info, and active management adds little value.",
+            "options": {
+                "a": "Inefficient markets reflect all info.",
+                "b": "Inefficiency means no market timing.",
+                "c": "Efficient markets mean no need for active management.",
+                "d": "Efficient markets reflect excess returns."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "47",
+            "question": "What is the best way to define fundamental analysis?",
+            "info": "Fundamental analysis seeks to determine intrinsic value using company/industry/economic data.",
+            "options": {
+                "a": "Study of historical prices.",
+                "b": "Study of monetary/fiscal policy.",
+                "c": "Use of tools to determine intrinsic value.",
+                "d": "Evaluation of risk/return."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "48",
+            "question": "You own shares in a sunglasses company. Adding what stock increases diversification most?",
+            "info": "Raincoat company stock is negatively correlated with sunglasses, increasing diversification.",
+            "options": {
+                "a": "Hammer company decreases diversification.",
+                "b": "Suntan lotion company decreases diversification.",
+                "c": "Raincoat company increases diversification.",
+                "d": "Hammer company has no effect."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "49",
+            "question": "Which type of security analysis studies recurring patterns in stock prices and volumes?",
+            "info": "Technical analysis identifies patterns in historical price and volume data.",
+            "options": {
+                "a": "Timing.",
+                "b": "Sector.",
+                "c": "Technical.",
+                "d": "Fundamental."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "50",
+            "question": "Widget Inc. P/E = 10. Doodad Inc. P/E = 20. What does this suggest?",
+            "info": "Higher P/E usually reflects market optimism. Doodad Inc. expected to outperform Widget Inc.",
+            "options": {
+                "a": "Widget is more profitable.",
+                "b": "Doodad is more profitable.",
+                "c": "Market expects Doodad to outperform.",
+                "d": "Market expects Doodad to underperform."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "51",
+            "question": "What conclusion can be drawn from the trend in Gizmo Inc.’s operations?",
+            "info": "Gross margins increase, but net profit margins fall. This implies rising non-operating costs like interest or amortization.",
+            "options": {
+                "a": "Cost controls are strengthening.",
+                "b": "Profitability from goods is deteriorating.",
+                "c": "Inventory turnover is improving.",
+                "d": "Interest/amortization expenses are increasing."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "52",
+            "question": "Which individual or group has ultimate responsibility for the fund’s activities, including ensuring that the fund’s investments are in keeping with the fund’s investment objectives?",
+            "info": "The board of directors of a mutual fund corporation (or trustees of a mutual fund trust) is ultimately responsible for ensuring investments align with the fund’s objectives, although they may delegate some operational duties.",
+            "options": {
+                "a": "Independent review committee.",
+                "b": "Fund manager.",
+                "c": "Board of directors.",
+                "d": "Portfolio manager."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "53",
+            "question": "Which of the following types of information is not included in a Fund Facts document?",
+            "info": "Fund Facts documents present objective information; they do not include opinions or endorsements by regulators regarding the quality of the fund.",
+            "options": {
+                "a": "Cost of buying, owning, and selling the fund.",
+                "b": "The opinion of the securities administrators regarding the quality of the fund as an investment.",
+                "c": "The tax consequences of the Fund.",
+                "d": "The type of investor for whom the fund may or may not be appropriate."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "54",
+            "question": "Sara advises her client that mutual funds now have lower fees, the ability in many cases to transfer between funds in a fund family at little to no cost, can be used as loan collateral, and have the benefit of professional management which ensures higher returns. Which of Sara’s statements would be considered a misleading statement?",
+            "info": "No investment guarantees returns. Suggesting that professional management ensures higher returns is misleading under securities regulations.",
+            "options": {
+                "a": "Ability to transfer.",
+                "b": "Professional management ensuring higher returns.",
+                "c": "Eligible for loan collateral.",
+                "d": "Lower fees."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "55",
+            "question": "An investor with a small portfolio wishes to own a wide range of securities but is concerned about the costs of acquiring and trading her holdings. What mutual fund feature could a salesperson discuss with the client as an advantage?",
+            "info": "Mutual funds offer access to diversified portfolios with many securities across industries, often unaffordable for individuals to assemble alone.",
+            "options": {
+                "a": "Low-cost professional management.",
+                "b": "Variety of purchase and redemption plans.",
+                "c": "Diversification.",
+                "d": "Liquidity."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "56",
+            "question": "What best describes the relationship between changes in interest rates and the performance of a money market fund?",
+            "info": "Money market fund returns reflect short-term interest rates. As rates rise or fall, the fund’s yield typically moves in the same direction, although with low volatility due to the short duration of holdings.",
+            "options": {
+                "a": "A money market fund’s returns will reflect changes in interest rates, rising as they go up and falling as they go down.",
+                "b": "A money market fund’s returns will not be affected by a rise in interest rates because its value is set by the amortized cost method.",
+                "c": "A money market fund’s returns will not be affected by a rise in interest rates because its value is fixed at $10.",
+                "d": "A money market fund’s returns will not be affected by a rise in interest rates because it holds mainly short-term government-issued securities."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "57",
+            "question": "Identify the statement about the current and effective yields of a money market fund that is correct.",
+            "info": "Current yield does not assume reinvestment; effective yield does. For short-term comparisons like with term deposits, current yield is appropriate.",
+            "options": {
+                "a": "The effective yield does not take into account the reinvestment of distributions.",
+                "b": "The current yield is always higher than the effective yield.",
+                "c": "The current yield is comparable to returns on term deposits of less than one year.",
+                "d": "The current yield assumes that the latest 7-day yield will remain constant for the next 52 weeks."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "58",
+            "question": "What is the main difference between the two types of fund wraps?",
+            "info": "Fund of funds: client owns units of a pooled mutual fund. Portfolio allocation service: client directly owns units of several funds in specified proportions.",
+            "options": {
+                "a": "With a fund of funds, the client owns units of a pool of mutual funds.",
+                "b": "Portfolio allocation services are not available with advisor compensation excluded.",
+                "c": "In a fund of funds, the client owns units of several mutual funds in the proportions established by the sponsor.",
+                "d": "With a portfolio allocation service, the client does not own units of the underlying funds."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "59",
+            "question": "Your client, Mr. Dimka, has a $50,000 mutual fund portfolio with 40% in an equity fund, 25% in a mortgage fund, 25% in a bond fund and 10% in a money market fund. He has indicated that he would like to invest his $10,000 salary bonus in a natural resource fund. What advice will you give him?",
+            "info": "Adding an uncorrelated specialty fund like a natural resource fund to a diversified portfolio can actually reduce overall risk due to diversification.",
+            "options": {
+                "a": "Adding the natural resource fund will have no effect on the risk of his portfolio because it is already well diversified.",
+                "b": "Adding the natural resource fund may increase the risk of his portfolio because it lacks diversification.",
+                "c": "Adding the natural resource fund may reduce the risk of his portfolio because it is not well correlated with his other holdings.",
+                "d": "Adding the natural resource fund may increase the risk of his portfolio because it is not well correlated with his other holdings."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "60",
+            "question": "Your client, Mr. Leblanc, tells you that for tax purposes, he would like to increase the Canadian dividend income he receives. Assuming that the fund is within his risk profile, which fund would you recommend to Mr. Leblanc?",
+            "info": "Canadian dividends from blue-chip equity funds qualify for the Dividend Tax Credit. Global funds do not provide this tax advantage.",
+            "options": {
+                "a": "An equity growth fund.",
+                "b": "A global dividend equity fund.",
+                "c": "A blue-chip equity fund.",
+                "d": "An equity index fund that uses futures contracts."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "61",
+            "question": "You are the portfolio manager for the Steady Hand Bond Fund. The fund’s economist has forecast that interest rates will decrease sharply over the next two quarters. What action should you take to protect the value of the fund and/or take advantage of this decrease in interest rates?",
+            "info": "When interest rates are expected to fall, increasing duration enhances the price appreciation potential of bond portfolios. Duration is increased by buying longer-term, low-coupon bonds.",
+            "options": {
+                "a": "You should increase the fund’s duration by buying bonds with low coupon rates.",
+                "b": "You should decease the fund’s duration by buying bonds with a short term to maturity.",
+                "c": "You should increase the fund’s duration by selling bonds with a long term to maturity.",
+                "d": "You should decrease the fund’s duration by selling bonds with a short term to maturity."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "62",
+            "question": "How does a bond portfolio manager increase the potential for capital gains for her bond fund?",
+            "info": "Longer-term bonds are more sensitive to changes in interest rates. When rates fall, these bonds increase more in price, offering greater capital gains.",
+            "options": {
+                "a": "She invests in more corporate bonds than government bonds.",
+                "b": "She invests in short-term bonds and holds them to maturity.",
+                "c": "She buys bonds at a premium and holds them to maturity.",
+                "d": "She invests in bonds with a longer term to maturity when interest rates are expected to fall."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "63",
+            "question": "Select the most accurate statement about the volatility of different types of fixed income funds.",
+            "info": "The longer the average term of the portfolio (whether bonds or mortgages), the higher the fund’s sensitivity to interest rate changes, and thus its volatility.",
+            "options": {
+                "a": "The volatility of a mortgage fund is directly related to the average term of its portfolio.",
+                "b": "An aggressively managed bond fund can’t be more volatile than an equity fund.",
+                "c": "A common equity dividend fund is generally less volatile than a preferred dividend fund.",
+                "d": "A short-term bond fund is generally more volatile than a bond fund."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "64",
+            "question": "A client owns units of several mutual funds in the proportions established through the allocation service. What type of fund is the client likely invested in?",
+            "info": "In a portfolio allocation service, the client directly owns the individual funds in set proportions rather than owning a single fund of funds.",
+            "options": {
+                "a": "Fund of funds.",
+                "b": "Specialty mutual fund.",
+                "c": "Portfolio allocation service.",
+                "d": "Target date fund."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "65",
+            "question": "Identify the funds in order of least risky to most risky.",
+            "info": "Balanced funds are generally lower risk due to diversification between equity and fixed income. Specialty funds, including small caps and sector-focused funds, are higher risk.",
+            "options": {
+                "a": "Small cap funds, standard equity funds, ethical funds, global funds.",
+                "b": "Ethical funds, standard equity funds, balanced funds, small cap funds.",
+                "c": "Balanced funds, standard equity funds, growth funds, specialty funds.",
+                "d": "Standard equity funds, balanced funds, global funds, growth funds."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "66",
+            "question": "A hedge fund manager anticipates a change in the level of interest rates. As a result, he adjusts the mix of short- to long-term bonds in the hedge fund he manages. What type of strategy has he used?",
+            "info": "Directional strategies involve making investment decisions based on expectations of market movements, such as interest rates or prices.",
+            "options": {
+                "a": "Relative value strategy.",
+                "b": "Directional strategy.",
+                "c": "Arbitrage strategy.",
+                "d": "Event-driven strategy."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "67",
+            "question": "What feature of a segregated fund eliminates the fees that are levied on the assets in the investment prior to payment of the proceeds to a beneficiary?",
+            "info": "One of the key benefits of segregated funds is the ability to bypass probate, allowing direct distribution to beneficiaries and avoiding associated fees.",
+            "options": {
+                "a": "Bypassing probate.",
+                "b": "Reset options.",
+                "c": "Death benefits.",
+                "d": "Creditor protection."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "68",
+            "question": "Mark is 30 years old and finally able to save and invest after paying off his student debt. He considers himself risk tolerant with a high-risk capacity and wishes to invest in the Canadian market. However, Mark is very conscious of hidden fees and other costs. Which investments would suit his needs?",
+            "info": "ETFs and closed-end mutual funds typically have low management fees and suit cost-conscious investors looking for market exposure without active management costs.",
+            "options": {
+                "a": "Hedge funds.",
+                "b": "Segregated funds and exchange-traded funds.",
+                "c": "Exchange-traded funds.",
+                "d": "Exchange-traded funds and closed-end mutual funds."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "69",
+            "question": "Which benchmark index is the most appropriate for a Canadian large-cap equity mutual fund?",
+            "info": "A benchmark index should reflect the investment universe of the fund. <br><strong>S&P/TSX 60</strong> includes 60 of the largest and most liquid Canadian companies and is the most suitable benchmark for Canadian large-cap equity mutual funds.",
+            "options": {
+                "a": "S&P/TSX Composite.",
+                "b": "S&P 500.",
+                "c": "S&P/TSX 60.",
+                "d": "MSCI EAFE Index."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "70",
+            "question": "In the comparison universe method of mutual fund performance evaluation, what will be the result if the universe size is too broad?",
+            "info": "A broad universe can distort comparative analysis by grouping funds with very different risk profiles. This is particularly problematic when subgroups (e.g., small-cap vs. large-cap) have different performance behaviors.",
+            "options": {
+                "a": "The universe cannot be used to assess the performance of actively managed funds.",
+                "b": "The performance of the universe cannot be measured accurately.",
+                "c": "Managers who concentrate on particular subgroups will have different risk characteristics.",
+                "d": "The average fund manager’s performance assessment will deteriorate over time."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "71",
+            "question": "The GKL Fund has generally been in the second quartile for performance over the past 3- and 5-year periods. However, the fund manager is concerned that the fund will move down in quartile rankings as the historical period of comparison lengthens. What drawback with the Comparison Universe Method would this concern be caused by?",
+            "info": "<strong>Survivorship bias</strong> occurs when underperforming funds are closed or merged and thus excluded from the universe, artificially improving the average performance of the remaining funds.",
+            "options": {
+                "a": "Survivorship bias.",
+                "b": "Universe ranking.",
+                "c": "Downward benchmark creep.",
+                "d": "Quartile performance."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "72",
+            "question": "What type of risk that can be found in all mutual funds except money market funds?",
+            "info": "Money market funds are designed to have low risk and low volatility. <br><strong>Market risk</strong>, which is the risk of losses due to movements in market prices, applies to most other types of funds and cannot be eliminated through diversification.",
+            "options": {
+                "a": "Market risk.",
+                "b": "Interest rate risk.",
+                "c": "Default risk.",
+                "d": "Exchange rate risk."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "73",
+            "question": "A mutual fund reports a 10-year compound rate of return of 15%. The fund charges a front-end load of 4% and has a 2.3% management expense ratio. Which other factors have been taken into account in calculating the 15% return?",
+            "info": "<ul><li><strong>1. Management fees and expenses</strong> – already deducted in performance reporting.</li><li><strong>3. Reinvestment of all dividends</strong> – standard in compound return calculations.</li></ul><br>Front-end loads and transfer fees are not included in the fund’s published rate of return.",
+            "options": {
+                "a": "1 and 3.",
+                "b": "3 and 4.",
+                "c": "1 and 2.",
+                "d": "2 and 3."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "74",
+            "question": "ABC Fund charges an acquisition fee (front-end load) of 3%. Calculate the load as a percentage of the net amount invested for a fund with a NAVPS of $15. Round to 3 decimal places.",
+            "info": "<strong>Calculation:</strong><br>Fee = $15 × 0.03 = $0.45<br>Net invested = $15 - $0.45 = $14.55<br>Load as % of net invested = $0.45 ÷ $14.55 = 0.03093 or <strong>3.093%</strong>",
+            "options": {
+                "a": "2.910%",
+                "b": "3.090%",
+                "c": "3.093%",
+                "d": "3.000%"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "75",
+            "question": "What type of additional fee do funds that charge sales commission generally not charge?",
+            "info": "Funds with sales commissions (e.g., front-end loads or deferred sales charges) usually waive set-up fees to avoid layering fees on clients at purchase.",
+            "options": {
+                "a": "Transfer fee.",
+                "b": "Frequent trading charge.",
+                "c": "Redemption fee.",
+                "d": "Set-up fee."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "76",
+            "question": "Which of the following statements correctly relates the management expense ratio (MER) and the management fees associated with a mutual fund?",
+            "info": "<strong>MER = Management Fee + Other Operating Expenses</strong><br>It does <em>not</em> include trading commissions, taxes, or interest charges. That’s why MER is higher than just the management fee alone.",
+            "options": {
+                "a": "Management fees are usually lower than MERs because MERs include fees and expenses paid by the fund in addition to management fees.",
+                "b": "Management fees are usually higher than MERs because MERs do not include fees and expenses paid by the fund manager.",
+                "c": "Management fees are usually lower than MERs because MERs include brokerage fees and commissions paid by the fund.",
+                "d": "Management fees are usually lower than MERs because MERs include taxes and interest charges paid by the fund."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "77",
+            "question": "Statistical observations that fall within the bottom 51% and 75% of the peer group would be considered what quartile ranking?",
+            "info": "<table><thead><tr><th>Quartile</th><th>Description</th></tr></thead><tbody><tr><td>1st</td><td>Top 25% performers</td></tr><tr><td>2nd</td><td>26% - 50%</td></tr><tr><td>3rd</td><td>51% - 75%</td></tr><tr><td>4th</td><td>76% - 100%</td></tr></tbody></table>",
+            "options": {
+                "a": "Fourth quartile.",
+                "b": "First quartile.",
+                "c": "Third quartile.",
+                "d": "Second quartile."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "78",
+            "question": "From an investor’s standpoint, which measures quantify risk within a mutual fund?",
+            "info": "<ul><li><strong>Beta</strong>: Measures market risk sensitivity.</li><li><strong>Standard deviation</strong>: Measures volatility of returns.</li><li><strong>Worst periods</strong>: Reveal historical downside exposure.</li></ul><br><em>Alpha</em> measures performance, not risk.",
+            "options": {
+                "a": "1 and 3 only.",
+                "b": "1, 2, 3, and 4.",
+                "c": "2, 3, and 4 only.",
+                "d": "1, 3 and 4 only."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "79",
+            "question": "A fund’s 3-year reward-to-risk ratio was 0.7. Calculate the fund returns if the fund’s standard deviation over the 3-year period averaged 15%. Round to 1 decimal place.",
+            "info": "Reward-to-risk ratio = Return ÷ Standard Deviation<br>So, Return = 0.7 × 15% = <strong>10.5%</strong>",
+            "options": {
+                "a": "25.5%",
+                "b": "21.4%",
+                "c": "4.5%",
+                "d": "10.5%"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "80",
+            "question": "What characteristics of the fund sponsor’s business are desirable when selecting an investment firm?",
+            "info": "<ul><li><strong>1. Large number of client accounts</strong> – shows trust and scale.</li><li><strong>2. Growth in AUM</strong> – signals stability and popularity.</li><li>Focus and product concentration may limit client flexibility and scale.</li></ul>",
+            "options": {
+                "a": "3 and 4.",
+                "b": "1 and 2.",
+                "c": "2 and 3.",
+                "d": "1 and 4."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "81",
+            "question": "Your client has low risk tolerance but is willing to make long-term investments in equities. Which investment philosophy would best suit his investment profile?",
+            "info": "<strong>Value investing</strong> focuses on undervalued, mature, and stable companies. It aligns well with conservative investors who still want long-term equity exposure.",
+            "options": {
+                "a": "Growth investing.",
+                "b": "Sector rotation.",
+                "c": "Value investing.",
+                "d": "Momentum investing."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "82",
+            "question": "What two types of equity mutual funds are likely to have higher portfolio turnover rates?",
+            "info": "<ul><li><strong>Growth funds</strong>: Actively managed for capital appreciation.</li><li><strong>Sector funds</strong>: Require active rebalancing as market conditions change.</li><li>Index and value funds tend to have lower turnover.</li></ul>",
+            "options": {
+                "a": "1 and 2.",
+                "b": "2 and 4.",
+                "c": "1 and 3.",
+                "d": "3 and 4."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "83",
+            "question": "The balance of your mutual fund is $100,000. You choose to withdraw funds under a 10-year fixed-period withdrawal plan. Calculate your withdrawal in the second year for an investment return of 5% in each year.",
+            "info": "<table><thead><tr><th>Year</th><th>Value Start</th><th>5% Return</th><th>Value End</th><th>Withdrawal (1/n)</th></tr></thead><tbody><tr><td>1</td><td>$100,000</td><td>$5,000</td><td>$105,000</td><td>$10,500</td></tr><tr><td>2</td><td>$94,500</td><td>$4,725</td><td>$99,225</td><td>$11,025 (1/9)</td></tr></tbody></table>",
+            "options": {
+                "a": "$10,500",
+                "b": "$10,000",
+                "c": "$12,250",
+                "d": "$11,025"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "84",
+            "question": "A client needs to receive a specific amount of money each month from his mutual fund. The amount is larger than the combination of income and capital gain generated by the fund. What risk must the client be advised of?",
+            "info": "<strong>Systematic Withdrawal Plan (SWP) Warning:</strong> If the withdrawals exceed total returns, <em>capital must be used</em>, eventually depleting the fund.",
+            "options": {
+                "a": "Risk of volatility.",
+                "b": "Adverse tax effect.",
+                "c": "Account may run out of money.",
+                "d": "Excess sales charges."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "85",
+            "question": "What are prohibited practices with respect to mutual fund representatives?\nConfirming, upon request, that he is a registered dealing representative.\nAccepting a box of chocolates from a client wishing him happy birthday.\nConfirming the NAVPU of a proposed purchase.\nOffering to sell the individual securities that are owned by the mutual funds he is licensed to sell.",
+            "info": "<ul><li>Representatives may confirm registration and accept nominal gifts, but cannot pre-confirm NAVPU or sell underlying mutual fund securities individually.</li></ul>",
+            "options": {
+                "a": "1 and 3.",
+                "b": "1 and 2.",
+                "c": "3 and 4.",
+                "d": "2 and 4."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "86",
+            "question": "What is the main purpose of the Canadian Investor Protection Fund?",
+            "info": "<strong>CIPF</strong> protects eligible clients against <em>dealer insolvency</em> only. It does not cover investment losses, market fluctuations, or fund manager default.",
+            "options": {
+                "a": "To provide protection for losses arising from the insolvency of a mutual fund dealer member.",
+                "b": "To assess and handle complaints against CIRO members.",
+                "c": "To protect eligible customers from the default of a mutual fund or its manager.",
+                "d": "To cover customer losses resulting from a market decline, to a maximum of $1,000,000 per customer account."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "87",
+            "question": "What action is permitted to an individual who is not registered with the appropriate provincial or territorial securities administrator?",
+            "info": "<ul><li>Unregistered individuals may provide information on current holdings like NAVs to existing clients.</li><li>They cannot distribute order forms or provide investment advice.</li></ul>",
+            "options": {
+                "a": "Inform a client about the risk characteristics of a particular mutual fund.",
+                "b": "Provide a current unitholder with the net asset value of a fund that he holds.",
+                "c": "Distribute a mutual fund order form to interested clients.",
+                "d": "Hand out a mutual fund prospectus to a prospective investor."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "88",
+            "question": "Julie passes the required proficiency exam to work as a mutual fund representative during her 1-year maternity leave. Shortly afterwards, she and her partner decide to marry. When Julie returns to work, she is transferred to a non-sales position in another province. Which statement summarizes Julie’s position?",
+            "info": "Julie has <strong>three years</strong> after passing the proficiency exam to register, even if she has not worked in sales. This rule provides flexibility for life events like maternity leave or relocation.",
+            "options": {
+                "a": "Julie has three years to register as a mutual funds representative in her new province.",
+                "b": "Julie has 10 days to advise the appropriate securities administrator of her change of address.",
+                "c": "Julie has five days to advise the appropriate securities administrator of her marriage.",
+                "d": "Julie will be required to successfully rewrite the proficiency exam before applying for registration."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "89",
+            "question": "A dealing representative receives an unsolicited order from a long-term client. The client is 60 years of age, works for a non-profit organization and plans to retire within 2 years. She wishes to purchase a specialty fund that is heavily invested in the common shares of gold producers. What action should the representative take?",
+            "info": "<ul><li><strong>Suitability obligations apply to unsolicited orders.</strong></li><li>The representative must record the order as unsolicited, perform a suitability review, and clear it with a compliance officer.</li></ul>",
+            "options": {
+                "a": "Reject the purchase order as it fails to meet suitability requirements.",
+                "b": "Review the order and establish that it is unsuitable, advise the client of the review and clear the order with the compliance officer.",
+                "c": "Proceed with the trade as suitability requirements do not apply to unsolicited orders.",
+                "d": "Review the order, establish that it is unsuitable and advise the client that the order cannot be executed."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "90",
+            "question": "What is the minimum CDN dollar amount of a cash deposit that requires specified entities to report the transaction to the Financial Transactions and Reports Analysis Centre of Canada (FINTRAC)?",
+            "info": "As per FINTRAC regulations, <strong>all cash transactions of $10,000 or more</strong> must be reported to ensure transparency and prevent money laundering.",
+            "options": {
+                "a": "$25,000",
+                "b": "$10,000",
+                "c": "$50,000",
+                "d": "$100,000"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "91",
+            "question": "What considerations form part of the value of Professionalism?\nRespect for client’s assets.\nClient orders.\nUnsolicited orders.\nTrades by registered and approved individuals.",
+            "info": "<strong>Professionalism</strong> includes adherence to client orders and ensuring trades are performed only by registered and approved individuals. It reflects ethical behaviour in personal and client-related dealings.",
+            "options": {
+                "a": "2 and 4.",
+                "b": "2 and 3.",
+                "c": "1 and 4.",
+                "d": "1 and 3."
+            },
+            "correct_answer": "a"
+        },
+        {
+            "id": "92",
+            "question": "A client places a purchase order for ABC Equity Fund. The sales representative is aware of a similar fund, XYZ Fund, that has shown almost identical performance and management expense ratio but has a higher trailer fee. The sales representative counsels the client to purchase XYZ Fund. What aspect of Integrity did the representative violate?",
+            "info": "Failing to <strong>disclose a potential conflict of interest</strong>, such as higher trailer fees, violates the ethical principle of <em>Disclosure</em> within the value of Integrity.",
+            "options": {
+                "a": "Priority of client’s interests.",
+                "b": "Respect for client’s assets.",
+                "c": "Disclosure.",
+                "d": "Complete and accurate information."
+            },
+            "correct_answer": "c"
+        },
+        {
+            "id": "93",
+            "question": "John, a 65-year-old retiree in poor health and with minimal pension income, and his daughter Elizabeth, a 25-year-old business finance graduate beginning to save for retirement, wish to open a joint mutual fund account. What consideration would likely prevent the opening of this account?",
+            "info": "Opening a joint account requires <strong>identical time horizons, risk profiles, and objectives</strong>. A mismatch—like John's need for income versus Elizabeth's long-term growth goal—makes the account <em>unsuitable</em>.",
+            "options": {
+                "a": "They wish that trading instructions be issued by Elizabeth only.",
+                "b": "KYC information would be required from each.",
+                "c": "Elizabeth has a higher level of investment knowledge than John.",
+                "d": "Elizabeth is saving for retirement, while John seeks retirement income from the account."
+            },
+            "correct_answer": "d"
+        },
+        {
+            "id": "94",
+            "question": "What is the reasoning for the requirement for in-trust accounts for minors at some mutual fund dealers?",
+            "info": "Minors can <strong>repudiate mutual fund orders</strong>, which could be problematic if the fund value declines. An in-trust account structure ensures the minor is not placing the order, protecting the dealer.",
+            "options": {
+                "a": "Because a formal trust deed is required.",
+                "b": "Because minors can repudiate mutual fund orders.",
+                "c": "Because minors cannot place mutual fund orders.",
+                "d": "Because KYC information cannot be obtained for minors."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "95",
+            "question": "What type of mutual fund account is registered in the name of a dealer or third-party administrator?",
+            "info": "<strong>Nominee accounts</strong> (also known as 'on-book' accounts) are registered in the name of a dealer or third-party administrator on behalf of the actual investor.",
+            "options": {
+                "a": "Tenants in common account.",
+                "b": "Nominee account.",
+                "c": "Partnership account.",
+                "d": "Client name account."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "96",
+            "question": "A dealing representative has several senior clients who occasionally forget to monitor their accounts or call to place redemption requests as funds are needed for special purposes. What is a possible solution for this situation?",
+            "info": "The representative should <strong>maintain regular contact</strong> to assess upcoming needs. Other options, like signing blank forms or using general powers of attorney, are <em>not permitted</em>.",
+            "options": {
+                "a": "The dealing representative should obtain a limited trading authorization for the accounts.",
+                "b": "Maintain regular contact with clients to assess their upcoming needs.",
+                "c": "The dealing representative should obtain a general power of attorney for the accounts.",
+                "d": "Have the clients sign blank order forms and follow up each trade with a telephone call."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "97",
+            "question": "Henry works as a mutual fund sales representative but he just lost his job. What will happen with his registration?",
+            "info": "Registration is <strong>automatically suspended</strong> when a representative is no longer employed or sponsored by a dealer. Re-activation requires sponsorship from another registered dealer.",
+            "options": {
+                "a": "Registration expires after two years.",
+                "b": "Registration is immediately suspended.",
+                "c": "Registration remains valid for a period of six months.",
+                "d": "Registration is immediately terminated."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "98",
+            "question": "Based on the requirements of the Personal Information Protection and Electronic Documents Act (PIPEDA), what must a firm do when they collect, use or disclose the personal information of a client?",
+            "info": "Under <strong>PIPEDA</strong>, firms must obtain the <em>client's consent</em> before collecting, using, or disclosing personal information, ensuring protection and transparency.",
+            "options": {
+                "a": "Obtain a waiver of required information.",
+                "b": "Obtain the consent of the client.",
+                "c": "Report to the Financial Transactions and Reports Analysis Centre of Canada (FINTRAC).",
+                "d": "Document for the Financial Action Task Force (FATF)."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "99",
+            "question": "Which primary value ensures that the dealing representative’s recommendations are suitable, reflect the client’s needs and objectives, and are well researched and understood?",
+            "info": "<strong>Duty of care</strong> obliges representatives to thoroughly know their clients and recommend suitable investments based on personal and financial profiles.",
+            "options": {
+                "a": "Integrity.",
+                "b": "Duty of care.",
+                "c": "Confidentiality.",
+                "d": "Professionalism."
+            },
+            "correct_answer": "b"
+        },
+        {
+            "id": "100",
+            "question": "Which of the primary values does the following pertain to: “All methods of soliciting and conducting business must be such as to merit public respect and confidence”?",
+            "info": "This definition describes <strong>Professionalism</strong>, which governs how mutual fund representatives must conduct business to earn <em>trust and public confidence</em>.",
+            "options": {
+                "a": "Professionalism.",
+                "b": "Duty of care.",
+                "c": "Integrity.",
+                "d": "Compliance."
+            },
+            "correct_answer": "a"
+        }
+    ]
+}
